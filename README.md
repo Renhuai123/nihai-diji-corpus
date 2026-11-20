@@ -1,12 +1,14 @@
 # 倪海厦·地纪（堪舆）逐帧精读库 · nihai-diji-corpus
 
-![课程](https://img.shields.io/badge/堪舆-四讲_3.9_小时-b04a3e) ![逐帧](https://img.shields.io/badge/逐帧-423,193_帧-8a7a63) ![进度](https://img.shields.io/badge/进度-进行中-a8620e) ![许可](https://img.shields.io/badge/语料-CC_BY--NC--SA_4.0-blue) ![代码](https://img.shields.io/badge/代码-MIT-green)
+![课程](https://img.shields.io/badge/堪舆-四讲_3.9_小时-b04a3e) ![逐帧](https://img.shields.io/badge/逐帧-423,193_帧-8a7a63) ![进度](https://img.shields.io/badge/进度-四讲已出稿-2e7d32) ![许可](https://img.shields.io/badge/语料-CC_BY--NC--SA_4.0-blue) ![代码](https://img.shields.io/badge/代码-MIT-green)
 
 > 把倪海厦先生讲堪舆的四讲课**一帧不漏**地读一遍（423,193 帧），
 > 把他口述的方法、黑板上写的字、手指着说「这里 / 这个」指的是哪，整理成康奈尔笔记。
 > 每条笔记都标依据（口述 / 板书 / 指代 / 推断），能指回集号、时间码和帧号。
 
 倪师把学问分为天纪、地纪、人纪，堪舆属**地纪**。这四讲出自倪师《天纪》课程（B 站合辑 [BV1KJsLekEfA](https://www.bilibili.com/video/BV1KJsLekEfA/) 分 P 31 / 33 / 35 / 37），本库专门整理这一块。
+
+**四讲公开摘要已发布（87 条要点，每条带时间码）**：见 [`summaries/`](summaries/README.md)。
 
 姊妹库：[nihai-tianji-corpus](https://github.com/Renhuai123/nihai-tianji-corpus)（天纪十一册 4886 条判语，第 11 册「堪舆」257 条可对照）· [nihai-renji-corpus](https://github.com/Renhuai123/nihai-renji-corpus)（人纪六部 19,294 条判语）· 紫微十七集 160 万帧精读见 [ziwei-doushu/research/nishi-video-reading](https://github.com/Renhuai123/ziwei-doushu/tree/main/research/nishi-video-reading)（同一套方法）。
 
@@ -18,7 +20,7 @@
 | 逐帧 | **423,193 帧**，每帧有 sha256 清单（画面只存本机，不公开） |
 | 逐帧层 | 堪舆一至三新跑 **27,558 窗**（Grok 4.7，每窗 12 帧）；堪舆四在紫微那轮已跑过 |
 | 写笔记 | Astra 6.2 分块写，Grok 4.7 逐条复核，再由程序逐条核对引文原字和帧号 |
-| 进度 | 堪舆四已出稿；堪舆一至三在复核改稿 |
+| 进度 | 四讲笔记均已出稿；公开摘要四讲 87 条已发布（[`summaries/`](summaries/README.md)） |
 
 ## 四讲
 
@@ -54,8 +56,8 @@
 - [x] 逐帧层全量
 - [x] 本机预处理、指代、按句拼接
 - [x] 堪舆四笔记出稿
-- [ ] 堪舆一至三复核改稿、出稿
-- [ ] 四讲公开摘要发布
+- [x] 堪舆一至三复核改稿、出稿
+- [x] 四讲公开摘要发布（87 条要点，11-20）
 
 ## 许可
 
