@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">来龙取向看朝向</title>
+  <desc id="desc">左图列出内卦、外卦，用箭头把「朝」指向老师点出的「内」。右图用上下两道轮廓画出记法：下方开口朝上，上方的尖端顺箭头进入开口。</desc>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#292929">
+    <g fill="none" stroke="#484848" stroke-width="1.5">
+      <rect x="54" y="45" width="154" height="48" rx="3"/>
+      <rect x="456" y="45" width="205" height="48" rx="3"/>
+    </g>
+    <g text-anchor="middle" font-size="24" font-weight="600">
+      <text x="131" y="77">来龙取向</text>
+      <text x="558.5" y="77">男女交合的象</text>
+    </g>
+
+    <path d="M407 137 V454" fill="none" stroke="#dededb" stroke-width="1"/>
+
+    <g text-anchor="middle" font-size="23">
+      <text x="130" y="193">内卦</text>
+      <text x="284" y="193">外卦</text>
+    </g>
+    <path d="M207 173 V196" fill="none" stroke="#c5c5c1" stroke-width="1.2"/>
+
+    <g text-anchor="middle" font-size="44" font-weight="500">
+      <text x="130" y="330">朝</text>
+      <text x="284" y="330" fill="#a43b30">内</text>
+    </g>
+    <path d="M172 314 H241 M231 305 L241 314 L231 323"
+          fill="none" stroke="#454545" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g stroke="#383838" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M552 154
+               C582 156 602 171 612 195
+               C621 217 624 243 637 257
+               C650 244 654 218 662 195
+               C671 170 693 156 722 154"
+            fill="#efefec"/>
+      <path d="M478 285
+               C512 284 539 297 561 322
+               C585 349 607 373 637 373
+               C667 373 689 349 713 322
+               C735 297 762 284 796 285
+               L796 411 L478 411 Z"
+            fill="#f5f5f3" stroke="none"/>
+      <path d="M478 285
+               C512 284 539 297 561 322
+               C585 349 607 373 637 373
+               C667 373 689 349 713 322
+               C735 297 762 284 796 285"
+            fill="none"/>
+      <path d="M637 268 V324 M629 314 L637 324 L645 314" fill="none"/>
+    </g>
+
+    <g fill="none" stroke="#898984" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M666 185 H797"/>
+      <path d="M708 330 L754 369 H797"/>
+    </g>
+    <g font-size="22">
+      <text x="810" y="193">男人</text>
+      <text x="810" y="377">女人</text>
+      <text x="654" y="296">入</text>
+      <text x="637" y="404" text-anchor="middle">朝</text>
+    </g>
+  </g>
+</svg>

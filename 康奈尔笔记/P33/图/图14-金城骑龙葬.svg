@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">金城骑龙葬</title>
+  <desc id="desc">左图俯看金城围合，水从围合的开口流出，连续的脊线表示倪师所说此局中整条都可以葬的龙脉。右图按他指认的相貌部位，画出居中的鼻子、两侧的眉眼与颧骨，以及下方的嘴巴和下巴。</desc>
+
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#292929">
+    <rect x="45" y="32" width="140" height="47" rx="3" fill="none" stroke="#484848" stroke-width="1.4"/>
+    <text x="115" y="64" text-anchor="middle" font-size="25" font-weight="600" letter-spacing="2">金城局</text>
+
+    <g font-size="19">
+      <text x="214" y="62">藏风纳气</text>
+      <path d="M304 55 H334 M329 51 L335 55 L329 59" fill="none" stroke="#777" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="349" y="62">出官带</text>
+    </g>
+
+    <!-- 围合处留出开口，水线从内向外穿过开口。 -->
+    <path d="M357 159
+             C310 124 236 120 170 143
+             C98 168 61 226 66 295
+             C71 364 126 415 205 428
+             C282 441 366 418 407 366
+             C444 319 452 266 437 221
+             Q434 212 430 205
+             C438 263 422 314 389 352
+             C348 398 277 418 209 406
+             C141 395 95 352 89 293
+             C83 234 114 187 177 161
+             C237 137 302 138 357 159Z"
+          fill="#efefec" stroke="#545451" stroke-width="1.8" stroke-linejoin="round"/>
+
+    <g fill="none" stroke="#696967" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M306 284 C338 277 353 249 355 223 C357 200 372 185 399 181 C424 177 451 182 476 166"/>
+      <path d="M465 167 L477 165 L472 177"/>
+    </g>
+    <text x="398" y="145" font-size="19">水流</text>
+
+    <!-- 整段脊线等粗，不另设单一穴点。 -->
+    <path d="M131 332
+             C161 314 182 298 202 273
+             C225 243 255 232 284 227
+             C306 223 323 213 339 197
+             C332 219 314 237 289 246
+             C257 256 237 266 217 291
+             C193 320 165 334 131 342Z"
+          fill="#e3e3df"/>
+    <path d="M131 337 C166 324 190 303 210 279 C235 249 260 244 287 236 C311 229 326 214 339 197"
+          fill="none" stroke="#30302e" stroke-width="3" stroke-linecap="round"/>
+    <path d="M235 302 L220 286" fill="none" stroke="#81817e" stroke-width="1.2"/>
+    <text x="242" y="320" font-size="20">龙脉</text>
+    <text x="248" y="485" text-anchor="middle" font-size="22" font-weight="500">整条龙脉上都可以葬</text>
+
+    <!-- 相貌只画口述指认的部位，左右成对。 -->
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M627 261
+               C619 225 621 177 635 148
+               C650 118 673 103 704 103
+               C735 103 759 118 773 148
+               C788 179 789 224 781 261
+               C777 296 770 332 755 361
+               C741 388 722 407 704 412
+               C685 407 666 388 652 361
+               C637 331 631 296 627 261Z"
+            fill="#fafaf8" stroke="#525250" stroke-width="1.9"/>
+
+      <g stroke="#424240" stroke-width="3.2">
+        <path d="M640 197 Q660 185 682 195"/>
+        <path d="M726 195 Q748 185 768 197"/>
+      </g>
+      <g fill="#fff" stroke="#4d4d4b" stroke-width="1.7">
+        <path d="M640 218 Q660 203 681 217 Q660 230 640 218Z"/>
+        <path d="M727 217 Q748 203 768 218 Q748 230 727 217Z"/>
+      </g>
+      <g fill="#50504e">
+        <circle cx="661" cy="216" r="3.8"/>
+        <circle cx="747" cy="216" r="3.8"/>
+      </g>
+
+      <g fill="#ededea" stroke="#adadaa" stroke-width="1.2">
+        <path d="M639 272 Q645 250 666 246 Q678 246 679 258 Q674 273 650 280 Q641 281 639 272Z"/>
+        <path d="M769 272 Q763 250 742 246 Q730 246 729 258 Q734 273 758 280 Q767 281 769 272Z"/>
+      </g>
+
+      <path d="M699 212 C699 230 696 252 691 268 Q688 276 694 279
+               M709 212 C709 230 712 252 717 268 Q720 276 714 279
+               M694 277 Q699 275 704 281 Q709 275 714 277"
+            stroke="#555553" stroke-width="1.8"/>
+      <path d="M681 325 Q691 320 698 320 Q702 320 704 322 Q707 320 711 320 Q718 320 727 325
+               Q704 337 681 325Z"
+            fill="#f0f0ed" stroke="#555553" stroke-width="1.6"/>
+      <path d="M682 325 Q704 328 726 325 M690 378 Q704 385 718 378"
+            stroke="#858582" stroke-width="1.3"/>
+    </g>
+
+    <g fill="none" stroke="#92928e" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M764 191 L792 164 H820"/>
+      <path d="M770 218 H820"/>
+      <path d="M767 263 L793 278 H820"/>
+      <path d="M607 294 H662 L693 272"/>
+      <path d="M607 347 H651 L678 327"/>
+      <path d="M720 389 L771 421 H820"/>
+    </g>
+    <g font-size="19">
+      <text x="831" y="171">眉毛</text>
+      <text x="831" y="225">眼睛</text>
+      <text x="831" y="285">两个颧骨</text>
+      <text x="596" y="301" text-anchor="end">鼻子</text>
+      <text x="596" y="354" text-anchor="end">嘴巴</text>
+      <text x="831" y="428">下巴</text>
+    </g>
+  </g>
+</svg>

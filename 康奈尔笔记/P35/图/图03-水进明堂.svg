@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">水进明堂</title>
+  <desc id="desc">左右两图从明堂向水面看。左图的来水和去水都看得见，箭头左下右上，两条直水道在近处以浅弧相接。右图的来处和去处都隐在岸后，眼前只见一片安静聚拢的水面。</desc>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#292929">
+    <rect x="48" y="35" width="196" height="48" rx="3" fill="none" stroke="#474747" stroke-width="1.5"/>
+    <text x="146" y="67" text-anchor="middle" font-size="24" font-weight="600" letter-spacing="2">水的来与去</text>
+
+    <g text-anchor="middle" font-size="23" font-weight="600">
+      <text x="258" y="142">直来直去</text>
+      <text x="702" y="142">看不见水来看不见水去</text>
+    </g>
+
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <!-- 左图的两条水道一直敞开到远处，近岸与内岸各由一道浅弧收束。 -->
+      <path d="M167 197 L146 357
+               C144 383 190 400 255 401
+               C319 402 366 385 365 359
+               L348 197 L292 197 L301 340
+               C302 351 284 357 256 357
+               C228 357 210 351 211 340
+               L222 197 Z" fill="#e9ebea"/>
+      <g fill="none" stroke="#424644" stroke-width="2.2">
+        <path d="M167 197 L146 357 C144 383 190 400 255 401 C319 402 366 385 365 359 L348 197"/>
+        <path d="M222 197 L211 340 C210 351 228 357 256 357 C284 357 302 351 301 340 L292 197"/>
+      </g>
+      <g fill="none" stroke="#333735" stroke-width="2.8">
+        <path d="M193 214 L180 333 M173 320 L180 333 L190 322"/>
+        <path d="M331 334 L322 215 M315 228 L322 215 L331 227"/>
+      </g>
+
+      <!-- 右图的水面向两侧岸后收进去；两道近岸轮廓遮住水口。 -->
+      <path d="M537 251
+               C582 242 615 255 646 273
+               C676 290 724 290 755 272
+               C793 250 829 245 870 252
+               L865 285
+               C842 286 833 298 839 317
+               C851 353 823 380 778 392
+               C730 406 663 405 617 390
+               C575 376 554 350 565 320
+               C572 300 558 290 539 286 Z" fill="#e9ebea"/>
+      <g fill="none" stroke="#424644" stroke-width="2.2">
+        <path d="M537 251 C582 242 615 255 646 273 C676 290 724 290 755 272 C793 250 829 245 870 252"/>
+        <path d="M539 286 C558 290 572 300 565 320 C554 350 575 376 617 390
+                 C663 405 730 406 778 392 C823 380 851 353 839 317 C833 298 842 286 865 285"/>
+      </g>
+
+      <path d="M511 232 C539 226 565 232 584 247
+               C599 259 611 269 630 275
+               C609 277 587 287 568 302
+               C548 318 532 324 511 326 Z" fill="#f4f4f2"/>
+      <path d="M893 232 C867 227 842 231 822 246
+               C806 258 794 269 775 275
+               C800 279 819 289 835 302
+               C854 317 872 324 893 326 Z" fill="#f4f4f2"/>
+      <g fill="none" stroke="#424644" stroke-width="2.2">
+        <path d="M511 232 C539 226 565 232 584 247 C599 259 611 269 630 275
+                 C609 277 587 287 568 302 C548 318 532 324 511 326"/>
+        <path d="M893 232 C867 227 842 231 822 246 C806 258 794 269 775 275
+                 C800 279 819 289 835 302 C854 317 872 324 893 326"/>
+      </g>
+
+      <g fill="none" stroke="#a4aaa6" stroke-width="1.4">
+        <path d="M601 324 Q615 326 630 324"/>
+        <path d="M765 340 Q781 342 797 339"/>
+        <path d="M662 371 Q685 374 708 371"/>
+      </g>
+    </g>
+
+    <text x="702" y="343" text-anchor="middle" font-size="21">水还要聚</text>
+    <g text-anchor="middle" font-size="19" fill="#525552">
+      <text x="256" y="448">明堂</text>
+      <text x="702" y="448">明堂</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">虎的位置像螣蛇一样</title>
+  <desc id="desc">左边以细长的弯月形弧线画龙，弧线下端是讲到结穴时所指之处。右边的线在弧内连续回弯，向上绕出一环，短斜线下方的弯折是讲到虎的位置像螣蛇一样时所指之处。</desc>
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M359 133
+             C328 178 319 236 331 299
+             C343 368 377 430 431 475
+             C369 439 322 373 305 302
+             C288 232 307 167 359 133Z"
+          fill="#f2f2f0" stroke="#444" stroke-width="2.4"/>
+
+    <path d="M359 133
+             C327 184 325 255 350 309
+             C369 350 405 373 437 364
+             C466 356 471 320 461 287
+             C454 263 430 250 424 229
+             C418 209 425 192 439 190
+             C455 187 464 201 466 222
+             C469 254 482 294 505 313
+             C520 326 541 324 552 312
+             C569 293 543 277 547 255
+             C551 233 578 235 579 212
+             C580 188 555 182 538 172
+             C519 160 529 143 554 130
+             C533 114 505 111 484 107
+             C459 103 451 96 456 80
+             C461 62 481 52 496 58
+             C510 64 508 78 524 88
+             C540 98 568 97 578 112
+             C588 128 585 149 573 156
+             C561 164 568 172 583 181
+             C604 193 608 211 598 233
+             C592 248 578 250 576 264
+             C573 282 593 295 605 314
+             C615 328 618 343 613 356"
+          fill="none" stroke="#303030" stroke-width="3"/>
+    <path d="M562 146 L611 117" fill="none" stroke="#555" stroke-width="2.1"/>
+
+    <g fill="none" stroke="#929292" stroke-width="1.3">
+      <path d="M233 216 H273 L300 232"/>
+      <path d="M254 453 H363 L421 469"/>
+      <path d="M576 161 L637 151 H683"/>
+    </g>
+    <circle cx="572" cy="160" r="4.5" fill="#ad4033" stroke="#fff" stroke-width="1.3"/>
+  </g>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#272727">
+    <g text-anchor="end">
+      <text x="220" y="210" font-size="25" font-weight="600">龙</text>
+      <text x="220" y="239" font-size="20">这边很好</text>
+      <text x="241" y="460" font-size="21">结穴也很好</text>
+    </g>
+    <text x="698" y="149" font-size="25" font-weight="600">虎的位置</text>
+    <text x="698" y="181" font-size="21">像螣蛇一样</text>
+  </g>
+</svg>

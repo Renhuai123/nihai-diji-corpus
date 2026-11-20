@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">潜山三十六个山头</title>
+  <desc id="desc">左边三十六个山头围着潜山县，右边三十六把黄伞按相同位置围成一圈。两圈之间的“像”字点出典故中地理师所用的比喻。</desc>
+
+  <defs>
+    <g id="peak" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-12 5 Q-7 2 -2-6 Q0-10 2-6 Q7 1 12 5"
+            fill="#f2f2ef" stroke="#393936" stroke-width="1.7"/>
+      <path d="M0-6 Q1-2 4 1"
+            fill="none" stroke="#85857f" stroke-width="1"/>
+    </g>
+
+    <g id="parasol" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0-9 V10" fill="none" stroke="#41413e" stroke-width="1.6"/>
+      <path d="M-12 0 Q-6-2 0-7 Q6-2 12 0
+               Q9 3 6 1 Q3 3 0 1 Q-3 3-6 1 Q-9 3-12 0 Z"
+            fill="#ededeb" stroke="#393936" stroke-width="1.4"/>
+      <path d="M0-6 Q-2-2-6 1 M0-6 Q2-2 6 1"
+            fill="none" stroke="#85857f" stroke-width="0.9"/>
+    </g>
+
+    <g id="pair">
+      <use href="#peak"/>
+      <use href="#parasol" x="492"/>
+    </g>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif"
+     text-anchor="middle" fill="#292927">
+    <g font-size="24" font-weight="600">
+      <text x="234" y="82">三十六个山头</text>
+      <text x="726" y="82">三十六把黄伞</text>
+    </g>
+
+    <g>
+      <use href="#pair" x="234" y="129"/>
+      <use href="#pair" x="264" y="131"/>
+      <use href="#pair" x="292" y="137"/>
+      <use href="#pair" x="319" y="146"/>
+      <use href="#pair" x="343" y="158"/>
+      <use href="#pair" x="364" y="174"/>
+      <use href="#pair" x="381" y="192"/>
+      <use href="#pair" x="394" y="212"/>
+      <use href="#pair" x="401" y="233"/>
+
+      <use href="#pair" x="404" y="255"/>
+      <use href="#pair" x="401" y="277"/>
+      <use href="#pair" x="394" y="298"/>
+      <use href="#pair" x="381" y="318"/>
+      <use href="#pair" x="364" y="336"/>
+      <use href="#pair" x="343" y="352"/>
+      <use href="#pair" x="319" y="364"/>
+      <use href="#pair" x="292" y="373"/>
+      <use href="#pair" x="264" y="379"/>
+
+      <use href="#pair" x="234" y="381"/>
+      <use href="#pair" x="204" y="379"/>
+      <use href="#pair" x="176" y="373"/>
+      <use href="#pair" x="149" y="364"/>
+      <use href="#pair" x="125" y="352"/>
+      <use href="#pair" x="104" y="336"/>
+      <use href="#pair" x="87" y="318"/>
+      <use href="#pair" x="74" y="298"/>
+      <use href="#pair" x="67" y="277"/>
+
+      <use href="#pair" x="64" y="255"/>
+      <use href="#pair" x="67" y="233"/>
+      <use href="#pair" x="74" y="212"/>
+      <use href="#pair" x="87" y="192"/>
+      <use href="#pair" x="104" y="174"/>
+      <use href="#pair" x="125" y="158"/>
+      <use href="#pair" x="149" y="146"/>
+      <use href="#pair" x="176" y="137"/>
+      <use href="#pair" x="204" y="131"/>
+    </g>
+
+    <text x="234" y="265" font-size="32" font-weight="600">潜山县</text>
+
+    <text x="480" y="242" font-size="19">像</text>
+    <path d="M433 255 H527 M519 249 L527 255 L519 261"
+          fill="none" stroke="#72726d" stroke-width="1.6"
+          stroke-linecap="round" stroke-linejoin="round"/>
+
+    <text x="726" y="444" font-size="18" fill="#62625d">地理师</text>
+    <text x="726" y="481" font-size="25" font-weight="600">“这个潜山县要出帝王”</text>
+  </g>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">意大利与用象</title>
+  <desc id="desc">左图依板书画出意大利的长轮廓，上端为斜边，下端左侧的圆钝突起伸得更低。顺着箭头看，轮廓像一只斜放的马靴，倪师由此联想到意大利皮鞋，用这个例子讲「用象」。</desc>
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#262626">
+    <rect x="46" y="36" width="100" height="46" rx="3" fill="none" stroke="#484848" stroke-width="1.5"/>
+    <text x="96" y="67" text-anchor="middle" font-size="24" font-weight="600">用象</text>
+
+    <g stroke="#343434" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+      <!-- 板书轮廓。 -->
+      <path fill="#f5f5f3" d="M113 159 L169 127
+        C157 150 166 157 182 172
+        C201 191 214 231 236 260
+        C247 278 254 294 266 310
+        C275 324 283 336 280 341
+        C277 348 266 345 255 337
+        C243 328 232 325 230 338
+        Q228 344 232 353
+        C220 353 207 347 199 354
+        C189 366 181 388 172 399
+        C164 409 151 403 151 393
+        C151 382 160 370 166 361
+        C180 338 187 315 183 296
+        C179 277 164 261 154 244
+        C143 223 139 209 126 198
+        C113 187 110 175 113 159 Z"/>
+
+      <!-- 马靴的靴筒斜度、靴尖和靴跟与左图相呼应。 -->
+      <g transform="translate(446 151) rotate(-25)">
+        <path fill="#f5f5f3" d="M-29 0 Q0 -3 32 0
+          C28 48 28 109 32 154
+          Q32 167 36 182 L36 214
+          Q21 218 7 214 L5 201
+          Q-5 199 -20 206
+          C-38 215 -57 221 -76 217
+          Q-89 214 -87 204
+          C-85 194 -68 192 -54 187
+          C-38 180 -27 167 -24 151
+          C-20 113 -24 49 -29 0 Z"/>
+        <g fill="none" stroke="#737373" stroke-width="1.5">
+          <path d="M-28 9 Q1 6 31 9"/>
+          <path d="M-86 209 C-66 219 -42 209 -23 200 Q-5 191 9 194 L35 194"/>
+          <path d="M18 10 C14 64 16 120 21 153 Q22 168 34 178"/>
+        </g>
+      </g>
+
+      <!-- 皮鞋。 -->
+      <path fill="#f5f5f3" d="M683 332
+        C689 320 716 319 735 311
+        C751 305 764 292 778 276
+        Q783 270 789 277 L800 290
+        C812 299 831 298 842 287
+        Q848 280 852 287
+        C858 301 862 320 860 337
+        L859 351 Q846 355 824 352 L822 345
+        C808 342 797 345 782 349
+        C752 358 714 360 691 352
+        Q676 347 683 332 Z"/>
+      <g fill="none" stroke="#737373" stroke-width="1.5">
+        <path d="M682 340 C707 352 749 351 781 342 Q807 334 825 338 Q841 341 860 336"/>
+        <path d="M751 303 Q767 307 779 320 Q799 312 800 290"/>
+        <path d="M716 318 Q731 323 734 335"/>
+        <path d="M776 284 L787 290 M771 290 L782 296 M766 296 L777 302" stroke="#444" stroke-width="2"/>
+      </g>
+    </g>
+
+    <g fill="none" stroke="#777" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M311 271 H375 M367 265 L375 271 L367 277"/>
+      <path d="M586 271 H650 M642 265 L650 271 L642 277"/>
+    </g>
+
+    <g text-anchor="middle" font-size="25">
+      <text x="195" y="461">意大利</text>
+      <text x="475" y="461">马靴</text>
+      <text x="772" y="461">意大利皮鞋</text>
+    </g>
+  </g>
+</svg>

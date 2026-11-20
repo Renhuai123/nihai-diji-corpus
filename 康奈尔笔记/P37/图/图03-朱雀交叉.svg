@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">朱雀交叉</title>
+  <desc id="desc">上方以两笔斜线相交示意朱雀的形，接出课中所说的口舌是非与官讼。下方并列画出测字时「又」的交叉、问考试时「文」字少了上面一点，以及房子盖成交叉形的例子。</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M2 1.5 8 5 2 8.5" fill="none" stroke="#777" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <g id="wen-body" fill="none" stroke="#303030" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-31-13 H31"/>
+      <path d="M18-12 Q8 15-31 35"/>
+      <path d="M-17-9 Q-3 17 31 35"/>
+    </g>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#262626">
+    <g fill="none" stroke="#303030" stroke-width="4.8" stroke-linecap="round">
+      <path d="M129 65 Q160 111 207 159"/>
+      <path d="M207 63 Q179 111 126 160"/>
+    </g>
+    <text x="167" y="204" text-anchor="middle" font-size="21">交叉</text>
+
+    <path d="M252 113 H365" fill="none" stroke="#777" stroke-width="1.6" marker-end="url(#arrow)"/>
+    <text x="455" y="128" text-anchor="middle" font-size="44" font-weight="600">朱雀</text>
+
+    <g fill="none" stroke="#777" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M525 113 H596 M596 82 V145"/>
+      <path d="M596 82 H649 M596 145 H649"/>
+    </g>
+    <g font-size="27">
+      <text x="671" y="92">口舌是非</text>
+      <text x="671" y="155">主官讼</text>
+    </g>
+
+    <g fill="none" stroke="#d5d5d2" stroke-width="1.2">
+      <path d="M54 240 H906"/>
+      <path d="M280 275 V477 M668 275 V477"/>
+    </g>
+
+    <g text-anchor="middle" font-size="21">
+      <text x="167" y="296">测字</text>
+      <text x="474" y="296">文章科名</text>
+      <text x="787" y="296">房子</text>
+    </g>
+
+    <g fill="none" stroke="#303030" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M135 337 H196 Q184 378 128 411"/>
+      <path d="M139 353 Q160 383 205 410"/>
+    </g>
+    <text x="167" y="462" text-anchor="middle" font-size="21">又</text>
+
+    <g transform="translate(366 375)">
+      <use href="#wen-body"/>
+      <path d="M-5-35 Q0-31 4-25" fill="none" stroke="#ad4034" stroke-width="5.5" stroke-linecap="round"/>
+    </g>
+    <path d="M421 376 H516" fill="none" stroke="#777" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <text x="469" y="359" text-anchor="middle" font-size="18">少一点</text>
+    <use href="#wen-body" transform="translate(578 375)"/>
+    <text x="366" y="462" text-anchor="middle" font-size="21">文</text>
+    <text x="565" y="462" text-anchor="middle" font-size="19">考试恐怕没有希望</text>
+
+    <path d="M771 325 H803 V353 H832 V382 H803 V411 H771 V382 H742 V353 H771 Z"
+          fill="#f3f3f1" stroke="#363636" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="787" y="462" text-anchor="middle" font-size="21">这个形状</text>
+  </g>
+</svg>

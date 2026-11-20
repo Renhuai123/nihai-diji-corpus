@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">北京城的高墙</title>
+  <desc id="desc">从斜上方看，四面高墙围出一片城内空间。倪师以北京城的高墙说明城局，把「藏风纳气」说作这种围合的作用。</desc>
+
+  <defs>
+    <clipPath id="inside">
+      <path d="M192 331 340 167H778L630 331Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g stroke="#343434" stroke-width="2" stroke-linejoin="round">
+    <!-- 城内地面，以及从斜上方可见的两面内墙。 -->
+    <path d="M192 331 340 167H778L630 331Z" fill="#fafaf8" stroke="none"/>
+    <g clip-path="url(#inside)">
+      <path d="M340 167H778V242H340Z" fill="#eeeeeb"/>
+      <path d="M192 331 340 167V242L192 406Z" fill="#e0e0dc"/>
+    </g>
+
+    <!-- 临近观看者的外墙立面。 -->
+    <path d="M150 348H640V423H150Z" fill="#e9e9e6"/>
+    <path d="M640 348 820 150V225L640 423Z" fill="#d6d6d2"/>
+
+    <!-- 连续的墙顶把四面墙连成一个围合。 -->
+    <path d="M150 348 330 150H820L640 348Z
+             M192 331 340 167H778L630 331Z"
+          fill="#f6f6f3" fill-rule="evenodd"/>
+    <path d="M150 348 192 331 M330 150 340 167 M820 150 778 167 M640 348 630 331"
+          fill="none" stroke="#777" stroke-width="1.1"/>
+  </g>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#242424">
+    <ellipse cx="108" cy="62" rx="62" ry="27" fill="none" stroke="#444" stroke-width="1.5"/>
+    <text x="108" y="71" text-anchor="middle" font-size="26" font-weight="600">城局</text>
+
+    <text x="484" y="298" text-anchor="middle" font-size="26" font-weight="500" letter-spacing="2">藏风纳气</text>
+
+    <path d="M735 283 765 307H797" fill="none" stroke="#666" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="807" y="314" font-size="21">好高的墙</text>
+
+    <text x="485" y="479" text-anchor="middle" font-size="23">北京城</text>
+  </g>
+</svg>

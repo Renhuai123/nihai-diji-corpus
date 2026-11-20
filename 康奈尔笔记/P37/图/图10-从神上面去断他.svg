@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">从神上面去断他</title>
+  <desc id="desc">脸图标出眼角凹陷和眼下断续的纹，右侧画出倪师先从神上断事、再看八字的个案。下方从来人四十五岁时的提问分出两支，并列画出「要帮人家解掉」与「乐天知命」，旁边单列「算命只是工具」。</desc>
+  <defs>
+    <g id="eye" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-45-21 Q-24-34-3-31 Q14-30 29-23" fill="none" stroke="#555" stroke-width="3"/>
+      <path d="M-42 1 Q-24-15-5-12 Q13-10 27 2 Q7 11-12 9 Q-29 8-42 1Z" fill="#fff" stroke="#353535" stroke-width="2.2"/>
+      <path d="M-16-10 Q-19-2-14 4 Q-8 11 0 5 Q5 1 3-10" fill="#555"/>
+      <path d="M-49-3 Q-55 3-49 11 Q-46 15-41 16 Q-47 10-45 5Z" fill="#dededb"/>
+      <path d="M-51-2 Q-55 7-47 13" fill="none" stroke="#888" stroke-width="1.4"/>
+    </g>
+    <g id="fold" fill="none" stroke-width="2.6" stroke-linecap="round">
+      <path d="M-27 19 Q-21 22-15 22 M-7 23 Q0 23 5 21 M13 20 Q20 19 25 16"/>
+      <path d="M-15 30 Q-9 32-4 31 M5 31 Q12 30 17 27"/>
+    </g>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M2 1.5 8 5 2 8.5" fill="none" stroke="#777" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#292929">
+    <rect x="45" y="32" width="225" height="45" rx="3" fill="none" stroke="#555" stroke-width="1.4"/>
+    <text x="157.5" y="62" text-anchor="middle" font-size="23" font-weight="600">从神上面去断他</text>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M249 100 C186 100 146 132 143 189 C141 224 149 266 165 296 C182 326 220 357 244 361 Q250 363 256 361 C281 355 316 326 334 296 C350 265 358 224 356 189 C353 132 314 100 249 100Z" stroke="#777" stroke-width="2"/>
+      <path d="M242 210 Q242 228 235 245 Q233 250 239 252 M260 244 Q265 249 260 252 M243 253 Q250 257 256 253" stroke="#8a8a87" stroke-width="1.6"/>
+      <path d="M222 289 Q235 288 242 286 Q247 285 250 287 Q254 285 259 286 Q267 289 277 289 M235 298 Q250 303 265 298" stroke="#999" stroke-width="1.6"/>
+    </g>
+    <use href="#eye" transform="translate(200 197)"/>
+    <use href="#eye" transform="translate(299 197) scale(-1 1)"/>
+    <use href="#fold" transform="translate(200 197)" stroke="#555"/>
+    <use href="#fold" transform="translate(299 197) scale(-1 1)" stroke="#ae4035"/>
+    <g fill="none" stroke="#888" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M149 201 117 165 H45"/>
+      <path d="M219 219 207 254 140 273 H45"/>
+      <path d="M312 219 371 181 H395"/>
+    </g>
+    <g font-size="18">
+      <text x="45" y="154">眼角凹下去一块</text>
+      <text x="45" y="299">子女的位置</text>
+    </g>
+    <g text-anchor="middle">
+      <text x="458" y="188" font-size="23">断断续续</text>
+      <text x="630" y="188" font-size="25" font-weight="600">勾陈</text>
+      <text x="826" y="188" font-size="24">停滞不前</text>
+    </g>
+    <g fill="none" stroke="#777" stroke-width="1.5" marker-end="url(#arrow)">
+      <path d="M523 180 H580"/>
+      <path d="M676 180 H750"/>
+    </g>
+    <path d="M410 228 H907" fill="none" stroke="#d5d5d2"/>
+    <text x="410" y="268" font-size="22" font-weight="600">再看他的八字</text>
+    <path d="M412 286 V354" fill="none" stroke="#aaa" stroke-width="2"/>
+    <g font-size="19">
+      <text x="430" y="308">流年在午宫</text>
+      <text x="430" y="345">太阴星在午宫化忌</text>
+    </g>
+    <path d="M603 323 H650" fill="none" stroke="#777" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <text x="673" y="331" font-size="24" font-weight="600">39岁妻离子散</text>
+
+    <path d="M45 400 H915" fill="none" stroke="#c4c4c1" stroke-width="1.2"/>
+    <text x="48" y="441" font-size="17" fill="#616161">本人他45岁</text>
+    <text x="48" y="476" font-size="23">那我现在要怎么办呢</text>
+    <g fill="none" stroke="#777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M270 468 H327"/>
+      <path d="M327 468 V437 H396" marker-end="url(#arrow)"/>
+      <path d="M327 468 V499 H396" marker-end="url(#arrow)"/>
+    </g>
+    <g font-size="23" font-weight="600">
+      <text x="416" y="445">要帮人家解掉</text>
+      <text x="416" y="507">乐天知命</text>
+    </g>
+    <text x="416" y="475" font-size="17" fill="#616161">同时</text>
+    <path d="M670 426 V511" fill="none" stroke="#d5d5d2"/>
+    <text x="792" y="476" text-anchor="middle" font-size="23">算命只是工具</text>
+  </g>
+</svg>

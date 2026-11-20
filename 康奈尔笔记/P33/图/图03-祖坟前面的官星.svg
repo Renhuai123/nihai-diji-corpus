@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">祖坟前面的官星</title>
+  <desc id="desc">两幅俯视图并列。左图只有官，没有笏也没有带，按倪师的说法断为偏官，指民意代表。右图画出余脉向外延伸，末端结成方中带圆的形状，称为笏。</desc>
+
+  <defs>
+    <g id="guan" stroke="#343434" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-3 -73 Q-2 -91 -3 -104 L3 -104 Q2 -91 3 -73" fill="#ededeb"/>
+      <path d="M-17 -108 Q-20 -112 -18 -115 Q-10 -119 0 -118 Q11 -119 18 -115
+               Q20 -112 17 -108 L11 -102 Q0 -98 -11 -102 Z" fill="#e4e4e1"/>
+      <path d="M-13 -117 L-21 -130 Q-23 -134 -18 -136 Q0 -140 18 -136
+               Q23 -134 21 -130 L13 -117 Q0 -113 -13 -117 Z" fill="#f3f3f1"/>
+      <path d="M-12 -132 L-8 -121 M-4 -133 L-2 -121 M4 -133 L3 -121 M12 -132 L8 -121"
+            fill="none" stroke="#90908c" stroke-width="1.3"/>
+    </g>
+    <g id="folds" fill="none" stroke="#b4b4ae" stroke-width="1.5" stroke-linecap="round">
+      <path d="M-18 -62 C-56 -56 -85 -29 -89 6 C-93 35 -74 58 -51 73"/>
+      <path d="M-38 69 Q-17 84 1 94 Q19 85 36 73"/>
+      <path d="M82 5 C89 28 76 49 57 62"/>
+    </g>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#242424">
+    <rect x="46" y="34" width="232" height="49" rx="3" fill="none" stroke="#454545" stroke-width="1.5"/>
+    <text x="162" y="67" font-size="25" font-weight="600" text-anchor="middle">祖坟前面的官星</text>
+
+    <g transform="translate(246 264)">
+      <use href="#guan"/>
+      <path d="M0 -76
+               C-48 -73 -100 -44 -108 3
+               C-117 54 -73 81 -27 101 Q-9 109 0 116
+               Q12 107 31 99 C73 80 106 54 106 17
+               C106 -8 98 -28 79 -37
+               Q68 -42 57 -38 Q46 -34 50 -23
+               C54 -10 71 2 68 16 C64 32 43 31 23 26
+               Q0 19 -26 28 C-48 35 -67 31 -68 15
+               C-69 -10 -42 -37 -10 -43
+               Q3 -46 13 -43 Q21 -41 20 -49 Q17 -66 0 -76 Z"
+            fill="#f2f2ef" stroke="#343434" stroke-width="2.6" stroke-linejoin="round"/>
+      <use href="#folds"/>
+    </g>
+
+    <g transform="translate(668 264)">
+      <use href="#guan"/>
+      <path d="M0 -76
+               C-48 -73 -100 -44 -108 3
+               C-117 54 -73 81 -27 101 Q-9 109 0 116
+               Q12 107 31 99 C73 80 106 54 106 17
+               C106 -8 98 -28 87 -40
+               Q79 -50 80 -65 L81 -86
+               Q81 -91 86 -94 Q90 -96 90 -102
+               L90 -125 Q90 -131 84 -131
+               L62 -131 Q56 -131 56 -125
+               L56 -102 Q56 -97 61 -94 Q66 -91 66 -86
+               L65 -69 Q65 -52 56 -41 Q46 -31 50 -23
+               C54 -10 71 2 68 16 C64 32 43 31 23 26
+               Q0 19 -26 28 C-48 35 -67 31 -68 15
+               C-69 -10 -42 -37 -10 -43
+               Q3 -46 13 -43 Q21 -41 20 -49 Q17 -66 0 -76 Z"
+            fill="#f2f2ef" stroke="#343434" stroke-width="2.6" stroke-linejoin="round"/>
+      <use href="#folds"/>
+      <path d="M56 -106 L56 -125 Q56 -131 62 -131 L84 -131 Q90 -131 90 -125 L90 -106"
+            fill="none" stroke="#a43e31" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <g fill="none" stroke="#777771" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M147 148 H193 L221 137"/>
+      <path d="M765 143 L786 132 H806"/>
+      <path d="M752 197 L786 208 H806"/>
+    </g>
+    <text x="136" y="155" font-size="21" text-anchor="end">只有官</text>
+    <text x="817" y="139" font-size="23" font-weight="600" fill="#a43e31">笏</text>
+    <text x="817" y="215" font-size="21">余脉</text>
+
+    <g text-anchor="middle">
+      <text x="246" y="424" font-size="21">没有笏也没有带</text>
+      <text x="668" y="424" font-size="21">余脉长出去的时候</text>
+      <text x="167" y="477" font-size="26" font-weight="600">偏官</text>
+      <path d="M208 467 H260 M252 461 L260 467 L252 473" fill="none"
+            stroke="#555550" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="326" y="477" font-size="26" font-weight="600">民意代表</text>
+      <text x="668" y="477" font-size="25" font-weight="600">结穴就成一个方形的圆</text>
+    </g>
+  </g>
+</svg>

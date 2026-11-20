@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">辨真假龙</title>
+  <desc id="desc">左图俯看真龙，两支山脉从同一条棱线伸出，两边的水在山间汇合流出。右图的水从原来的龙穴流出，穿过山脉断处，再绕过前面多出来的官星，看起来也像两边来水；隔水的山势只算护卫。</desc>
+
+  <defs>
+    <marker id="flow" viewBox="0 0 12 12" refX="9" refY="6" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M2 2 L9 6 L2 10" fill="none" stroke="#626262" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+
+    <g id="joined" fill="none">
+      <path d="M185 111 C183 140 192 170 205 191 C217 209 228 225 227 246"/>
+      <path d="M205 191 C175 199 140 217 117 247 C88 285 80 335 94 368 C102 386 115 398 132 407"/>
+      <path d="M205 191 C248 186 293 208 323 243 C352 278 364 321 356 351 C351 375 338 391 321 402"/>
+    </g>
+    <g id="parted" fill="none">
+      <path d="M185 111 C183 141 192 171 205 191 C216 206 232 211 247 213"/>
+      <path d="M205 191 C174 200 140 218 117 247 C88 285 80 335 94 368 C102 386 115 398 132 407"/>
+      <path d="M294 223 C317 235 340 258 351 286 C367 324 363 369 329 398"/>
+      <path d="M220 301 C241 306 259 319 265 342"/>
+    </g>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#242424">
+    <path d="M480 43 V489" stroke="#dededb" stroke-width="1"/>
+
+    <g transform="translate(16 0)">
+      <rect x="32" y="36" width="98" height="45" rx="3" fill="none" stroke="#444" stroke-width="1.5"/>
+      <text x="81" y="67" text-anchor="middle" font-size="25" font-weight="600" letter-spacing="2">真龙</text>
+
+      <g stroke-linecap="round" stroke-linejoin="round">
+        <use href="#joined" stroke="#eeeeeb" stroke-width="22"/>
+        <use href="#joined" stroke="#404040" stroke-width="2.4"/>
+      </g>
+
+      <g fill="none" stroke="#626262" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M175 231 C151 252 139 282 144 308 C147 326 158 341 175 354" marker-end="url(#flow)"/>
+        <path d="M175 354 C194 369 211 375 227 390"/>
+        <path d="M268 223 C297 242 318 271 317 299 C316 322 305 338 284 353" marker-end="url(#flow)"/>
+        <path d="M284 353 C262 368 244 375 227 390"/>
+        <path d="M227 390 C223 411 232 431 228 460" marker-end="url(#flow)"/>
+      </g>
+
+      <text x="127" y="143" text-anchor="end" font-size="19">棱线</text>
+      <path d="M137 138 H158 L183 149" fill="none" stroke="#888" stroke-width="1.2"/>
+      <text x="229" y="309" text-anchor="middle" font-size="19">水从两边下来</text>
+    </g>
+
+    <g transform="translate(486 0)">
+      <rect x="30" y="36" width="98" height="45" rx="3" fill="none" stroke="#444" stroke-width="1.5"/>
+      <text x="79" y="67" text-anchor="middle" font-size="25" font-weight="600" letter-spacing="2">假龙</text>
+
+      <g stroke-linecap="round" stroke-linejoin="round">
+        <use href="#parted" stroke="#eeeeeb" stroke-width="22"/>
+        <use href="#parted" stroke="#404040" stroke-width="2.4"/>
+      </g>
+
+      <g fill="none" stroke="#626262" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M247 213 C260 215 270 222 271 234 C272 244 267 252 259 261" marker-end="url(#flow)"/>
+        <path d="M259 261 C254 267 248 272 243 277"/>
+        <path d="M243 277 C211 282 186 301 180 325 C177 338 180 351 186 362" marker-end="url(#flow)"/>
+        <path d="M186 362 C198 384 222 389 238 404"/>
+        <path d="M243 277 C268 280 292 294 302 317 C309 333 307 348 299 362" marker-end="url(#flow)"/>
+        <path d="M299 362 C285 385 256 390 238 404"/>
+        <path d="M238 404 C234 423 243 441 238 460" marker-end="url(#flow)"/>
+      </g>
+
+      <circle cx="247" cy="213" r="5" fill="#ad4033" stroke="#fff" stroke-width="1.3"/>
+      <g fill="none" stroke="#888" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M254 204 L277 169 H296"/>
+        <path d="M363 309 L382 296 H391"/>
+        <path d="M244 345 L253 334"/>
+      </g>
+      <g font-size="19">
+        <text x="303" y="174">龙穴</text>
+        <text x="396" y="302">护卫</text>
+        <text x="235" y="366" text-anchor="middle">官星</text>
+      </g>
+    </g>
+  </g>
+</svg>

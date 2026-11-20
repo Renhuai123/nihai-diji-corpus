@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">斗数延伸扩大</title>
+  <desc id="desc">十二格命盘以申格的命宫为起点，向左依次标出兄弟宫、夫妻、子女，向下标出父母宫。盘外的箭头接着两支读：从子女推到孙、曾孙，从父母宫推到祖父祖母、曾祖父曾祖母。</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M2 1.5 8 5 2 8.5" fill="none" stroke="#565656" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g fill="none" stroke="#555" stroke-width="1.5">
+    <rect x="224" y="58" width="512" height="424"/>
+    <path d="M224 164H736 M224 376H736
+             M352 58V482 M608 58V482
+             M480 58V164 M480 376V482
+             M224 270H352 M608 270H736"/>
+  </g>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="480" y="281" text-anchor="middle" font-size="30" font-weight="600" letter-spacing="2" fill="#272727">斗数延伸扩大</text>
+
+    <g font-size="18" fill="#626262">
+      <text x="239" y="86">巳</text>
+      <text x="367" y="86">午</text>
+      <text x="495" y="86">未</text>
+      <text x="623" y="86">申</text>
+      <text x="239" y="192">辰</text>
+      <text x="623" y="192">酉</text>
+      <text x="239" y="298">卯</text>
+      <text x="623" y="298">戌</text>
+      <text x="239" y="404">寅</text>
+      <text x="367" y="404">丑</text>
+      <text x="623" y="404">亥</text>
+    </g>
+
+    <g text-anchor="middle" font-size="23" fill="#242424">
+      <text x="288" y="132">子女</text>
+      <text x="416" y="132">夫妻</text>
+      <text x="544" y="132">兄弟宫</text>
+      <text x="672" y="132" fill="#ad392e" font-weight="600">命宫</text>
+      <text x="672" y="238">父母宫</text>
+    </g>
+
+    <g fill="none" stroke="#565656" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)">
+      <path d="M259 124H146"/>
+      <path d="M119 146V196"/>
+      <path d="M713 230H788"/>
+      <path d="M852 252V302"/>
+    </g>
+
+    <g text-anchor="middle" font-size="22" fill="#242424">
+      <text x="119" y="132">孙</text>
+      <text x="119" y="226">曾孙</text>
+      <text x="852" y="238">祖父祖母</text>
+      <text x="852" y="332">曾祖父曾祖母</text>
+    </g>
+  </g>
+</svg>

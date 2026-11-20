@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">龙脉鸟瞰图</title>
+  <desc id="desc">从空中往下看，左边为龙，右边为虎，两侧山势之间敞开，棱线从内侧轮廓中央的小拱向下延伸。龙的前端伸出一段余脉，称为官星。</desc>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#242424">
+    <rect x="46" y="36" width="140" height="48" rx="3" fill="none" stroke="#484848" stroke-width="1.5"/>
+    <text x="116" y="68" text-anchor="middle" font-size="24" font-weight="600" letter-spacing="2">鸟瞰图</text>
+
+    <!-- 左右山臂与中央山脊共用同一片山体。下端留作截边。 -->
+    <path d="M421 489
+             C416 437 391 399 349 360
+             C304 319 277 276 282 228
+             C288 172 327 123 396 95
+             C359 133 335 173 332 220
+             C329 267 347 309 381 323
+             C406 333 428 316 442 291
+             C454 269 462 255 478 254
+             C494 253 505 269 517 288
+             C532 311 553 320 577 307
+             C608 290 620 249 614 210
+             C610 184 598 159 579 136
+             C638 156 673 202 676 246
+             C680 294 653 333 610 373
+             C572 409 552 449 548 489 Z"
+          fill="#f2f2ef"/>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M421 489
+               C416 437 391 399 349 360
+               C304 319 277 276 282 228
+               C288 172 327 123 396 95
+               C359 133 335 173 332 220
+               C329 267 347 309 381 323
+               C406 333 428 316 442 291
+               C454 269 462 255 478 254
+               C494 253 505 269 517 288
+               C532 311 553 320 577 307
+               C608 290 620 249 614 210
+               C610 184 598 159 579 136
+               C638 156 673 202 676 246
+               C680 294 653 333 610 373
+               C572 409 552 449 548 489"
+            stroke="#383838" stroke-width="2.5"/>
+      <path d="M384 106 C336 143 305 186 306 233 C306 271 322 305 348 336
+               M589 144 C627 173 647 208 646 246 C645 275 633 302 610 330"
+            stroke="#adada7" stroke-width="1.4"/>
+      <path d="M478 255 C474 290 475 327 477 365 C479 407 477 451 474 489"
+            stroke="#4b4b48" stroke-width="2"/>
+    </g>
+
+    <!-- 余脉的引线落在龙臂伸出的尖端；依板书只圈“官”字。 -->
+    <g fill="none" stroke="#777" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M396 95 L423 65 H452"/>
+      <path d="M513 65 H548"/>
+      <circle cx="570" cy="64" r="20"/>
+      <path d="M225 247 H264 L296 239"/>
+      <path d="M661 254 L697 247 H735"/>
+    </g>
+    <g font-size="22">
+      <text x="482" y="72" text-anchor="middle">余脉</text>
+      <text x="559" y="72">官<tspan x="596">星</tspan></text>
+      <text x="494" y="388">棱线</text>
+    </g>
+    <g font-size="26" font-weight="500">
+      <text x="212" y="256" text-anchor="end">龙</text>
+      <text x="748" y="256">虎</text>
+    </g>
+  </g>
+</svg>

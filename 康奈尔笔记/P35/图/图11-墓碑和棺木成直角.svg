@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">墓碑和棺木成直角</title>
+  <desc id="desc">俯视示意。外面的墓碑横放，里面的棺木纵放，棺木的长轴延至碑面时形成直角。这样摆方便后面的风水师来看。</desc>
+
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#242424">
+    <!-- 俯视棺木，淡灰轮廓内保留一条纵向中线。 -->
+    <path d="M437 57 Q480 51 523 57 L532 88 L521 282
+             Q480 288 439 282 L428 88 Z"
+          fill="#f5f5f3" stroke="#393939" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M443 65 Q480 60 517 65 L524 89 L514 275
+             Q480 279 446 275 L436 89 Z"
+          fill="none" stroke="#b5b5b0" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M480 73 V367" fill="none" stroke="#777" stroke-width="1.5" stroke-dasharray="7 6"/>
+
+    <!-- 碑面是横线，棺木中线与它相交处用方角标示。 -->
+    <rect x="348" y="367" width="264" height="25" rx="1.5"
+          fill="#e7e7e4" stroke="#393939" stroke-width="2.4"/>
+    <path d="M480 337 H510 V367" fill="none" stroke="#ae4034" stroke-width="2.8" stroke-linejoin="round"/>
+    <text x="522" y="349" font-size="23" font-weight="600">90度</text>
+
+    <g fill="none" stroke="#888" stroke-width="1.2" stroke-linecap="round">
+      <path d="M530 161 H592"/>
+      <path d="M349 380 H292"/>
+    </g>
+    <g font-size="23">
+      <text x="605" y="169">棺木</text>
+      <text x="280" y="388" text-anchor="end">墓碑</text>
+    </g>
+
+    <text x="480" y="473" text-anchor="middle" font-size="22">方便后面的风水师来看</text>
+  </g>
+</svg>

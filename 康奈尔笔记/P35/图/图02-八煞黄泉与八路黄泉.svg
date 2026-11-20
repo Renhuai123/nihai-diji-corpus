@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">八煞黄泉与八路黄泉</title>
+  <desc id="desc">左图侧看山形，弧箭头示意转动立向，使来龙前方所选的大山成为朝山。右图俯看龙穴，以一条连续水线示意外水进入、经过明堂再流出，并标出课中对来水的禁忌。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M2 1.5 8 5 2 8.5" fill="none" stroke="#343434" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#242424">
+    <g fill="none" stroke="#484848" stroke-width="1.4">
+      <rect x="44" y="36" width="162" height="47" rx="3"/>
+      <rect x="450" y="36" width="162" height="47" rx="3"/>
+    </g>
+    <g font-size="24" font-weight="600" letter-spacing="2" text-anchor="middle">
+      <text x="125" y="68">八煞黄泉</text>
+      <text x="531" y="68">八路黄泉</text>
+    </g>
+    <path d="M422 37V498" fill="none" stroke="#dededb" stroke-width="1"/>
+
+    <!-- 侧视。立向的两条线共用一个起点，实线指向所选大山。 -->
+    <path d="M44 213 C70 219 76 245 100 253 S134 274 154 286
+             C177 299 184 327 211 339 S253 352 268 329
+             C287 303 301 251 323 213 C336 190 346 173 358 177
+             C372 180 380 207 396 225 V385 H44Z" fill="#f2f2ef"/>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M44 213 C70 219 76 245 100 253 S134 274 154 286
+               C177 299 184 327 211 339 S253 352 268 329
+               C287 303 301 251 323 213 C336 190 346 173 358 177
+               C372 180 380 207 396 225" stroke="#414141" stroke-width="2.2"/>
+      <path d="M154 286 163 193" stroke="#aaa" stroke-width="1.5" stroke-dasharray="5 6"/>
+      <path d="M160 224 A62 62 0 0 1 208 256" stroke="#555" stroke-width="1.6" marker-end="url(#arrow)"/>
+      <path d="M154 286 331 190" stroke="#343434" stroke-width="2" marker-end="url(#arrow)"/>
+    </g>
+    <circle cx="154" cy="286" r="4" fill="#343434"/>
+    <g font-size="21">
+      <text x="52" y="197">来龙</text>
+      <text x="354" y="153" text-anchor="middle">朝山</text>
+      <text x="245" y="219" text-anchor="middle">立向</text>
+    </g>
+
+    <!-- 俯视。保留黑板上左右两个圆底和中间上拱的轮廓。 -->
+    <path d="M486 157 C512 166 528 178 538 197
+             C551 222 541 253 559 275 C573 292 602 296 620 282
+             C641 265 635 231 647 213 C655 200 669 199 678 212
+             C692 231 686 256 704 273 C721 290 749 287 765 268
+             C783 247 774 219 792 194 C810 169 839 152 877 144
+             C830 159 813 149 785 137 C753 122 730 116 706 124
+             C681 132 667 141 641 138 C602 133 576 118 546 124
+             C519 129 503 144 486 157Z" fill="#f2f2ef"/>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M486 157 C512 166 528 178 538 197
+               C551 222 541 253 559 275 C573 292 602 296 620 282
+               C641 265 635 231 647 213 C655 200 669 199 678 212
+               C692 231 686 256 704 273 C721 290 749 287 765 268
+               C783 247 774 219 792 194 C810 169 839 152 877 144" stroke="#505050" stroke-width="2"/>
+      <path d="M556 167 C582 186 568 221 581 244 M763 161 C740 181 745 215 731 235" stroke="#d0d0cb" stroke-width="1.4"/>
+      <path d="M480 255 C482 305 510 351 561 354
+               C604 357 626 323 663 323
+               C705 323 732 354 778 353
+               C830 352 860 319 897 297" stroke="#343434" stroke-width="2.6" marker-end="url(#arrow)"/>
+      <g stroke="#343434" stroke-width="2">
+        <path d="m492 313 10 5 -1-11"/>
+        <path d="m650 319 10 4 -8 7"/>
+      </g>
+      <path d="M664 164 V193" stroke="#777" stroke-width="1.2"/>
+    </g>
+    <circle cx="663" cy="203" r="5.5" fill="#b43b30" stroke="#fff" stroke-width="1.5"/>
+    <g font-size="21" text-anchor="middle">
+      <text x="664" y="155">龙穴</text>
+      <text x="664" y="296">明堂</text>
+      <text x="480" y="236">来水</text>
+      <text x="887" y="276">去水</text>
+    </g>
+    <path d="M450 407 H914" stroke="#dededb" stroke-width="1"/>
+    <text x="682" y="451" text-anchor="middle" font-size="20">八个地方不可以来水</text>
+  </g>
+</svg>

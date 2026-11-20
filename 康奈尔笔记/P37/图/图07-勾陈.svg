@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">勾陈</title>
+  <desc id="desc">左图从山脊顺着来龙往下看，来路一节节断开，末段仍接出结脉的圆弧。右上用相同的额头对照一条长纹和同一条纹断续的样子，右下画出课中所指的直下、点和逗点、乙形上勾。</desc>
+
+  <defs>
+    <g id="forehead" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-75 80 C-78 62 -78 39 -73 21 C-65 -5 -42 -20 -13 -23
+               C17 -27 48 -21 64 -2 C78 15 80 47 75 80"
+            stroke="#92928e" stroke-width="1.7"/>
+      <path d="M-73 25 C-62 17 -56 6 -51 0 C-35 6 -18 4 -3 -3
+               C10 1 25 2 39 -2 C51 3 63 13 72 25"
+            stroke="#b0b0ac" stroke-width="1.5"/>
+      <path d="M-62 66 Q-44 53 -21 63 M21 63 Q44 53 62 66"
+            stroke="#757571" stroke-width="2.2"/>
+      <path d="M-57 73 Q-43 66 -28 71 M28 71 Q43 66 57 73"
+            stroke="#b0b0ac" stroke-width="1.4"/>
+    </g>
+    <path id="crease" d="M-56 34 C-38 27 -20 29 -3 32 C16 35 35 36 56 29"
+          fill="none" stroke="#292929" stroke-width="3.3" stroke-linecap="round"/>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#262626">
+    <rect x="44" y="31" width="101" height="46" rx="3" fill="none" stroke="#494949" stroke-width="1.5"/>
+    <text x="94" y="62" text-anchor="middle" font-size="25" font-weight="600" letter-spacing="2">勾陈</text>
+
+    <path d="M449 90 V450 M483 267 H916 M44 472 H916"
+          fill="none" stroke="#dededb" stroke-width="1.2"/>
+
+    <text x="49" y="119" font-size="21" font-weight="600">来龙</text>
+    <path d="M130 184 C153 163 175 120 200 100 Q210 91 218 97
+             C243 110 257 147 291 164 C264 156 233 142 213 127
+             C193 140 161 172 130 184Z" fill="#f1f1ee"/>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M130 184 C153 163 175 120 200 100 Q210 91 218 97
+               C243 110 257 147 291 164" stroke="#424240" stroke-width="2.3"/>
+      <path d="M213 102 Q222 124 240 137" stroke="#b7b7b2" stroke-width="1.4"/>
+
+      <path d="M211 119 C215 137 212 153 207 172
+               M203 190 C199 204 200 218 204 232
+               M208 251 C212 266 212 280 208 293
+               M204 311 Q200 328 203 344
+               C228 347 249 360 254 379 C260 403 242 422 215 425"
+            stroke="#30302e" stroke-width="3.6"/>
+      <path d="M203 344 C175 346 152 360 146 380 C143 393 147 406 157 413"
+            stroke="#30302e" stroke-width="3.1"/>
+
+      <path d="M310 227 H272 L220 242" stroke="#888883" stroke-width="1.2"/>
+      <path d="M92 354 H127 L192 345" stroke="#888883" stroke-width="1.2"/>
+    </g>
+    <text x="284" y="216" font-size="19" fill="#a23c30">一节节断掉</text>
+    <text x="53" y="343" font-size="19">结个脉</text>
+
+    <text x="483" y="76" font-size="21" font-weight="600">脸上的纹</text>
+    <g transform="translate(583 129)">
+      <use href="#forehead"/>
+      <use href="#crease"/>
+    </g>
+    <g transform="translate(811 129)">
+      <use href="#forehead"/>
+      <use href="#crease" stroke-dasharray="18 10 15 9 21 11 19 9"/>
+    </g>
+    <g text-anchor="middle" font-size="19">
+      <text x="583" y="241">一条长纹</text>
+      <text x="811" y="241">断断落落的</text>
+    </g>
+
+    <text x="483" y="307" font-size="21" font-weight="600">字体</text>
+    <g fill="none" stroke="#292929" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M543 338 V398"/>
+      <path d="M707 358 Q718 368 705 384"/>
+      <path d="M814 345 Q836 341 856 343
+               C848 354 826 374 824 385
+               C822 398 845 399 861 395 Q872 392 871 379"/>
+    </g>
+    <circle cx="676" cy="361" r="4" fill="#292929"/>
+    <g text-anchor="middle" font-size="18">
+      <text x="543" y="437">直的下来</text>
+      <text x="695" y="437">一点一个逗点</text>
+      <text x="844" y="437">尾部往上勾</text>
+    </g>
+
+    <g text-anchor="middle" font-size="21" font-weight="500">
+      <text x="412" y="511">事情停滞不前</text>
+      <text x="559" y="511">小祸不断</text>
+    </g>
+  </g>
+</svg>

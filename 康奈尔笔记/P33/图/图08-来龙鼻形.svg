@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">来龙鼻形</title>
+  <desc id="desc">狮鼻一行画来势厚大的山龙，标「大富大贵的地」，悬胆鼻一行画细长来龙在结穴处变宽，标「非常的好」。下图画来龙软弱无力的一例，正面可见结穴，侧面用朱红点标出后面结穴处。</desc>
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#262626">
+    <g font-size="23" font-weight="600">
+      <text x="52" y="46">人相</text>
+      <text x="228" y="46">来龙</text>
+    </g>
+    <text x="300" y="45" font-size="17" fill="#555">把它当成一个鼻子</text>
+    <path d="M52 59 H172 M228 59 H908" fill="none" stroke="#b5b5b1"/>
+
+    <g font-size="25" font-weight="600">
+      <text x="52" y="125">狮鼻</text>
+      <text x="52" y="218">悬胆鼻</text>
+    </g>
+
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <path d="M228 83
+               C310 77 379 82 450 80
+               C505 79 555 70 602 76
+               C640 80 670 94 676 111
+               C681 130 658 145 623 150
+               C571 157 519 147 461 145
+               C378 141 308 151 228 148"
+            fill="#f1f1ef" stroke="#343434" stroke-width="2.4"/>
+      <path d="M244 99 C331 90 402 101 475 95
+               C530 91 581 82 619 94
+               C644 102 650 116 636 127"
+            fill="none" stroke="#a1a19d" stroke-width="1.5"/>
+
+      <path d="M228 196
+               C330 196 418 205 503 198
+               C540 195 558 179 587 173
+               C625 164 663 175 674 198
+               C687 226 656 248 614 248
+               C568 249 550 226 512 219
+               C438 209 337 216 228 211"
+            fill="#f1f1ef" stroke="#343434" stroke-width="2.4"/>
+      <path d="M517 206 C549 203 570 184 600 182
+               C629 179 654 189 655 206
+               C656 218 645 226 629 229"
+            fill="none" stroke="#a1a19d" stroke-width="1.5"/>
+
+      <g fill="none" stroke="#777" stroke-width="1.2">
+        <path d="M703 103 H686 L668 110"/>
+        <path d="M367 182 L385 200"/>
+        <path d="M703 201 H685 L662 211"/>
+      </g>
+    </g>
+
+    <g transform="translate(715 0)">
+      <text y="110" font-size="19">很厚很大</text>
+      <text y="137" font-size="18" fill="#484848">大富大贵的地</text>
+    </g>
+    <text x="300" y="179" font-size="19">细细长长</text>
+    <g transform="translate(715 0)">
+      <text y="208" font-size="19">结穴很很壮</text>
+      <text y="235" font-size="18" fill="#484848">非常的好</text>
+    </g>
+
+    <text x="52" y="285" font-size="18" fill="#484848">我只主富哦</text>
+    <path d="M52 311 H908" fill="none" stroke="#b5b5b1"/>
+
+    <g font-size="21" font-weight="600">
+      <text x="52" y="350">正面</text>
+      <text x="400" y="350">侧面</text>
+    </g>
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <path d="M70 471
+               C97 468 108 456 121 437
+               C133 418 144 407 156 406
+               C168 405 174 413 183 414
+               C193 412 201 400 214 401
+               C229 402 238 417 249 434
+               C262 455 276 467 307 471"
+            fill="#f3f3f1" stroke="#393939" stroke-width="2.2"/>
+      <path d="M122 458 C137 448 144 424 157 422
+               M212 417 C229 420 229 439 244 451"
+            fill="none" stroke="#aaa9a5" stroke-width="1.4"/>
+      <ellipse cx="184" cy="437" rx="7" ry="4" fill="#fff" stroke="#555" stroke-width="1.5"/>
+      <path d="M184 443 V482" fill="none" stroke="#888" stroke-width="1.1"/>
+
+      <path d="M400 404
+               C424 391 440 393 460 404
+               C483 417 502 413 524 405
+               C550 396 568 402 592 414
+               C615 426 635 426 658 419
+               C686 409 706 416 729 430
+               C766 452 809 467 881 476
+               H400 Z" fill="#f3f3f1"/>
+      <path d="M400 404
+               C424 391 440 393 460 404
+               C483 417 502 413 524 405
+               C550 396 568 402 592 414
+               C615 426 635 426 658 419
+               C686 409 706 416 729 430
+               C766 452 809 467 881 476"
+            fill="none" stroke="#393939" stroke-width="2.2"/>
+      <g fill="none" stroke="#888" stroke-width="1.1">
+        <path d="M573 374 L549 399"/>
+        <path d="M851 473 L827 496 H800"/>
+      </g>
+      <circle cx="851" cy="471.5" r="4.8" fill="#b43b30" stroke="#fff" stroke-width="1.2"/>
+    </g>
+    <g font-size="18">
+      <text x="184" y="505" text-anchor="middle">前面结穴</text>
+      <text x="580" y="378">软弱无力</text>
+      <text x="788" y="503" text-anchor="end">在后面</text>
+    </g>
+  </g>
+</svg>

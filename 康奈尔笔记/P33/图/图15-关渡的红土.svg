@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">关渡的红土</title>
+  <desc id="desc">左右两幅相同的土体剖面表示倪师所说的土色变化。左图的红色土代表地气太热太旺，从土中向右上伸出的箭头表示热气要泄掉很多，才由红转黄。</desc>
+
+  <defs>
+    <g id="soil">
+      <path d="M0 19 C39 20 69 16 103 10 C138 4 164 4 194 8 C220 12 241 13 264 11
+               V142 H0Z" fill="#f3f3f1"/>
+      <path d="M0 19 C39 20 69 16 103 10 C138 4 164 4 194 8 C220 12 241 13 264 11"
+            fill="none" stroke="#363636" stroke-width="2.4" stroke-linecap="round"/>
+      <g fill="none" stroke="#c5c5c1" stroke-width="1.5" stroke-linecap="round">
+        <path d="M19 44 l8 -1 M52 74 l5 1 M218 39 l7 1 M242 89 l5 -1
+                 M26 117 l6 1 M82 125 l8 -1 M192 117 l6 1"/>
+      </g>
+    </g>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#282828">
+    <rect x="48" y="37" width="168" height="48" rx="3" fill="none" stroke="#474747" stroke-width="1.5"/>
+    <text x="132" y="69" text-anchor="middle" font-size="24" font-weight="600" letter-spacing="2">关渡的土</text>
+
+    <use href="#soil" x="68" y="263"/>
+    <use href="#soil" x="628" y="263"/>
+
+    <g text-anchor="middle" font-size="38" font-weight="600">
+      <text x="200" y="345" fill="#ac4034">红</text>
+      <text x="760" y="345">黄</text>
+    </g>
+    <text x="200" y="445" text-anchor="middle" font-size="22">地气太热太旺</text>
+
+    <g fill="none" stroke="#404040" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M270 306 C270 261 291 220 322 185 Q338 167 357 153"/>
+      <path d="M340 156 L357 153 L351 169"/>
+    </g>
+    <text x="378" y="158" font-size="23">热气要泄掉很多</text>
+
+    <g fill="none" stroke="#666" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M363 331 H595"/>
+      <path d="M582 323 L595 331 L582 339"/>
+    </g>
+  </g>
+</svg>

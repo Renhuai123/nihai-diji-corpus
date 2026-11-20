@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc" font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif">
+  <title id="title">以神断事</title>
+  <desc id="desc">左侧围绕「風」字画出三神及其在课例中的含义。右侧保留黑板上左右摆动的走路线，并以金山路一处住了四十年，对照十二个月换十三处；曲折走路和频繁迁居这两个例子都连到倪师口中的「跑路」。</desc>
+  <defs>
+    <g id="house" fill="#fff" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-10 0 L0 -9 L10 0 M-7.5 -2 V10 H7.5 V-2"/>
+      <path d="M-2 10 V4 H2 V10"/>
+    </g>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g fill="#282828">
+    <text x="46" y="70" font-size="31" font-weight="600">要看神不能看形</text>
+    <path d="M46 92 H914" fill="none" stroke="#bdbdb9" stroke-width="1"/>
+  </g>
+
+  <!-- 三个圈分别与整字相连。 -->
+  <g text-anchor="middle" fill="#282828">
+    <text x="194" y="155" font-size="22">三神</text>
+    <g fill="none" stroke="#8a8a86" stroke-width="1.5" stroke-linecap="round">
+      <path d="M142 251 L123 264"/>
+      <path d="M247 251 L266 264"/>
+      <path d="M194 295 V359"/>
+    </g>
+    <text x="194" y="279" font-size="91">風</text>
+    <g fill="none" stroke="#494946" stroke-width="1.7">
+      <ellipse cx="88" cy="280" rx="44" ry="24"/>
+      <ellipse cx="301" cy="280" rx="44" ry="24"/>
+      <ellipse cx="194" cy="384" rx="44" ry="24"/>
+    </g>
+    <g font-size="22">
+      <text x="88" y="288">青龙</text>
+      <text x="301" y="288">勾陈</text>
+      <text x="194" y="392">玄武</text>
+    </g>
+    <g font-size="18" fill="#52524f">
+      <text x="88" y="333">百事亨通</text>
+      <text x="301" y="333">停滯不前</text>
+      <text x="194" y="438">招小偷</text>
+    </g>
+  </g>
+
+  <path d="M376 125 V475" fill="none" stroke="#d7d7d3" stroke-width="1"/>
+
+  <!-- 走路的轨迹沿用板书自上而下、左右回摆的画法。 -->
+  <text x="476" y="155" text-anchor="middle" font-size="21" fill="#282828">在马路上走路</text>
+  <path d="M474 186
+           C512 186 518 203 475 218
+           C425 235 428 252 483 261
+           C533 269 524 286 473 303
+           C423 320 430 341 481 350
+           C523 358 518 375 470 398"
+        fill="none" stroke="#363634" stroke-width="3.2" stroke-linecap="round"/>
+
+  <!-- 同一住所与依次更换的十三处住所使用同一个屋形。 -->
+  <g fill="#282828">
+    <use href="#house" transform="translate(626 188) scale(2.8)" color="#454542"/>
+    <text x="682" y="176" font-size="21">金山路</text>
+    <text x="682" y="208" font-size="25" font-weight="600">住了40年</text>
+    <text x="682" y="236" font-size="18" fill="#52524f">从来没有搬动过</text>
+    <path d="M591 262 H914" fill="none" stroke="#d7d7d3" stroke-width="1"/>
+    <text x="752" y="309" text-anchor="middle" font-size="23" font-weight="600">12个月换了13个地方</text>
+  </g>
+
+  <g color="#484845">
+    <path d="M602 359 H902" fill="none" stroke="#a3a39e" stroke-width="1.2"/>
+    <use href="#house" transform="translate(602 349)"/>
+    <use href="#house" transform="translate(627 349)"/>
+    <use href="#house" transform="translate(652 349)"/>
+    <use href="#house" transform="translate(677 349)"/>
+    <use href="#house" transform="translate(702 349)"/>
+    <use href="#house" transform="translate(727 349)"/>
+    <use href="#house" transform="translate(752 349)"/>
+    <use href="#house" transform="translate(777 349)"/>
+    <use href="#house" transform="translate(802 349)"/>
+    <use href="#house" transform="translate(827 349)"/>
+    <use href="#house" transform="translate(852 349)"/>
+    <use href="#house" transform="translate(877 349)"/>
+    <use href="#house" transform="translate(902 349)"/>
+  </g>
+
+  <g fill="none" stroke="#858580" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M470 411 V431 H752 V375"/>
+    <path d="M611 431 V450"/>
+  </g>
+  <text x="611" y="488" text-anchor="middle" font-size="31" font-weight="600" fill="#a23d32">跑路</text>
+</svg>

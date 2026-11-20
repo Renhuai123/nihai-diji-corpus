@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">穴前明堂</title>
+  <desc id="desc">俯视图。来龙从图下方经过收窄的过峡，在中央圆拱顶端结穴，左龙右虎向前弯抱。朱红点前方的开阔平地是明堂，平地中央用水纹表示水聚天心。</desc>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M385 514
+             C408 482 455 455 453 425
+             C451 398 419 385 372 372
+             C272 345 179 293 163 215
+             C149 148 175 91 239 61
+             C282 41 337 37 382 48
+             C333 57 289 82 268 118
+             C244 159 247 214 269 249
+             C287 278 318 294 344 290
+             C372 286 387 256 405 232
+             C426 203 450 199 473 199
+             C501 199 525 216 544 247
+             C563 277 582 298 610 297
+             C645 296 676 263 690 227
+             C712 170 694 117 656 85
+             C637 69 610 58 578 53
+             C629 42 687 54 730 81
+             C791 119 812 181 793 240
+             C770 313 697 346 614 367
+             C554 382 506 398 505 426
+             C504 455 550 485 575 514"
+          fill="#f1f1ee"/>
+    <path d="M385 514
+             C408 482 455 455 453 425
+             C451 398 419 385 372 372
+             C272 345 179 293 163 215
+             C149 148 175 91 239 61
+             C282 41 337 37 382 48
+             C333 57 289 82 268 118
+             C244 159 247 214 269 249
+             C287 278 318 294 344 290
+             C372 286 387 256 405 232
+             C426 203 450 199 473 199
+             C501 199 525 216 544 247
+             C563 277 582 298 610 297
+             C645 296 676 263 690 227
+             C712 170 694 117 656 85
+             C637 69 610 58 578 53
+             C629 42 687 54 730 81
+             C791 119 812 181 793 240
+             C770 313 697 346 614 367
+             C554 382 506 398 505 426
+             C504 455 550 485 575 514"
+          fill="none" stroke="#373737" stroke-width="2.4"/>
+
+    <g fill="none" stroke="#c2c2bc" stroke-width="1.4">
+      <path d="M199 181 C198 122 245 72 318 55"/>
+      <path d="M752 183 C751 131 715 88 645 64"/>
+      <path d="M479 498 C484 459 481 435 479 409 C475 359 456 286 473 205"/>
+    </g>
+
+    <path d="M420 148
+             C432 138 451 139 468 141
+             C484 143 499 137 518 141
+             C534 144 541 150 537 156
+             C531 165 508 167 488 165
+             C470 163 452 170 433 165
+             C418 162 412 155 420 148Z"
+          fill="#e9e9e6" stroke="#888883" stroke-width="1.3"/>
+    <g fill="none" stroke="#999993" stroke-width="1.1">
+      <path d="M435 151 Q448 147 462 150 T488 151"/>
+      <path d="M475 157 Q488 154 500 156 T520 154"/>
+    </g>
+
+    <g fill="none" stroke="#777" stroke-width="1.2">
+      <path d="M542 152 H561"/>
+      <path d="M480 203 L505 226 H535"/>
+      <path d="M510 425 H572"/>
+    </g>
+    <circle cx="473" cy="199" r="6.2" fill="#b43b30" stroke="#fff" stroke-width="1.8"/>
+  </g>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#292929">
+    <g text-anchor="middle">
+      <text x="474" y="81" font-size="33" font-weight="600" letter-spacing="3">明堂</text>
+      <text x="474" y="111" font-size="19">平广</text>
+      <text x="207" y="219" font-size="25">龙</text>
+      <text x="751" y="223" font-size="25">虎</text>
+    </g>
+    <text x="570" y="158" font-size="19">水聚天心</text>
+    <text x="570" y="183" font-size="16" fill="#555">忌泄</text>
+    <text x="544" y="232" font-size="21">结穴</text>
+    <text x="582" y="432" font-size="21">过峡</text>
+    <text x="479" y="491" text-anchor="middle" font-size="22"
+          stroke="#f1f1ee" stroke-width="7" paint-order="stroke">来龙</text>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">白虎口对着财神酒店</title>
+  <desc id="desc">台北市仁爱路圆环示意。左上第一信托的白色房形向右伸出，右缘逐级向左下收进。按倪师转述的说法，这处房形被比作白虎口，斜箭头标出它朝向右下财神酒店的关系。</desc>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#292929">
+    <rect x="48" y="36" width="246" height="48" rx="3" fill="#fff" stroke="#484848" stroke-width="1.5"/>
+    <text x="171" y="68" text-anchor="middle" font-size="24" font-weight="600" letter-spacing="1">台北市仁爱路圆环</text>
+
+    <!-- 上排两处弧形。左侧弧形内画出第一信托的房形。 -->
+    <g fill="#f5f5f3">
+      <path d="M196 111 H448 V129 C448 212 384 264 297 264 H196 Z"/>
+      <path d="M552 111 H792 V264 H708 C621 264 552 211 552 129 Z"/>
+    </g>
+    <g fill="none" stroke="#92928d" stroke-width="2" stroke-linecap="round">
+      <path d="M196 264 H297 C384 264 448 212 448 129 V111"/>
+      <path d="M552 111 V129 C552 211 621 264 708 264 H792"/>
+    </g>
+
+    <!-- 房形上边平伸，右缘从高处逐级向左下收进。 -->
+    <path d="M214 131 H413 V154 H391 V175 H369 V196 H347 V217 H325 V238 H214 Z"
+          fill="#fff" stroke="#303030" stroke-width="2.8" stroke-linejoin="round"/>
+    <text x="290" y="177" text-anchor="middle" font-size="23" font-weight="600">第一信托</text>
+
+    <!-- 下排两个两端尖、中间宽的轮廓。 -->
+    <path d="M242 326 C326 308 399 347 425 434 C344 440 269 396 242 326 Z"
+          fill="#f5f5f3" stroke="#666662" stroke-width="2.1" stroke-linejoin="round"/>
+    <text x="336" y="387" text-anchor="middle" font-size="22">远东</text>
+
+    <path d="M582 438 C577 365 641 312 723 318 C714 387 652 438 582 438 Z"
+          fill="#f5f5f3" stroke="#41413f" stroke-width="2.3" stroke-linejoin="round"/>
+    <path d="M589 428 C609 381 652 342 712 323"
+          fill="none" stroke="#888883" stroke-width="1.7" stroke-linecap="round"/>
+    <path d="M698 374 H743" fill="none" stroke="#858581" stroke-width="1.3"/>
+    <text x="755" y="382" font-size="23" font-weight="600">财神酒店</text>
+
+    <!-- 引线指到阶梯内角，斜箭头由同一处朝向酒店。 -->
+    <path d="M180 295 H251 L367 197"
+          fill="none" stroke="#777773" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="168" y="302" text-anchor="end" font-size="22">白虎口</text>
+    <g fill="none" stroke="#ab4033" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M374 199 L597 365"/>
+      <path d="M583 362 L597 365 L591 352"/>
+    </g>
+  </g>
+</svg>

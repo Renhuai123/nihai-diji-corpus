@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">斗君看月令</title>
+  <desc id="desc">三盘从左到右连读。五月午时，先从子宫倒数五月至申，再在申宫起子数到午时，斗君落在寅宫。戌年从寅宫起子数到戌，一月落在子宫，随后一宫一月。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" markerWidth="7" markerHeight="7" refX="8" refY="5" orient="auto">
+      <path d="M2 1.5 8 5 2 8.5" fill="none" stroke="#525252" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <g id="board">
+      <rect x="0" y="0" width="264" height="264" fill="none" stroke="#525252" stroke-width="1.6"/>
+      <path d="M66 0V264 M198 0V264 M0 66H264 M0 198H264 M132 0V66 M132 198V264 M0 132H66 M198 132H264"
+            fill="none" stroke="#aaa" stroke-width="1.1"/>
+      <g text-anchor="middle" font-size="21" fill="#303030">
+        <text x="33" y="40">巳</text>
+        <text x="99" y="40">午</text>
+        <text x="165" y="40">未</text>
+        <text x="231" y="40">申</text>
+        <text x="33" y="107">辰</text>
+        <text x="231" y="107">酉</text>
+        <text x="33" y="173">卯</text>
+        <text x="231" y="173">戌</text>
+        <text x="33" y="237">寅</text>
+        <text x="99" y="237">丑</text>
+        <text x="165" y="237">子</text>
+        <text x="231" y="237">亥</text>
+      </g>
+    </g>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#272727">
+    <rect x="36" y="43" width="128" height="46" rx="3" fill="none" stroke="#555" stroke-width="1.4"/>
+    <text x="100" y="74" text-anchor="middle" font-size="25" font-weight="600">看月令</text>
+    <text x="924" y="73" text-anchor="end" font-size="18" fill="#525252">12个宫刚好12个月</text>
+
+    <g text-anchor="middle" font-size="24" font-weight="600">
+      <text x="168" y="154">从子开始算</text>
+      <text x="480" y="154">五月午时</text>
+      <text x="792" y="154">从斗君起子</text>
+    </g>
+
+    <g transform="translate(36 183)">
+      <rect x="199" y="1" width="64" height="64" fill="#f1f1ef"/>
+      <use href="#board"/>
+      <text x="132" y="140" text-anchor="middle" font-size="23">倒转</text>
+      <text x="231" y="60" text-anchor="middle" font-size="15">五月</text>
+      <g fill="none" stroke="#525252" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M165 248 H245 Q253 248 253 240 V40 Q253 32 245 32" marker-end="url(#arrow)"/>
+        <circle cx="165" cy="248" r="2.6" fill="#525252" stroke="none"/>
+      </g>
+    </g>
+
+    <g transform="translate(348 183)">
+      <rect x="199" y="1" width="64" height="64" fill="#f1f1ef"/>
+      <use href="#board"/>
+      <text x="133" y="138" text-anchor="middle" font-size="20">子在这边</text>
+      <path d="M165 118 209 56" fill="none" stroke="#929292" stroke-width="1.2"/>
+      <text x="231" y="60" text-anchor="middle" font-size="15">子</text>
+      <path d="M245 32 Q254 32 254 41 V202 Q254 210 246 210 H41 Q33 210 33 217"
+            fill="none" stroke="#525252" stroke-width="1.7" stroke-linecap="round" marker-end="url(#arrow)"/>
+      <text x="33" y="257" text-anchor="middle" font-size="16" font-weight="600" fill="#ad3d30">斗君</text>
+    </g>
+
+    <g transform="translate(660 183)">
+      <rect x="133" y="199" width="64" height="64" fill="#f1f1ef"/>
+      <use href="#board"/>
+      <text x="132" y="140" text-anchor="middle" font-size="23">戌年</text>
+      <path d="M19 229 Q10 229 10 220 V19 Q10 10 19 10 H245 Q254 10 254 19 V201 Q254 210 245 210 H174 Q165 210 165 217"
+            fill="none" stroke="#525252" stroke-width="1.7" stroke-linecap="round" marker-end="url(#arrow)"/>
+      <circle cx="19" cy="229" r="2.6" fill="#525252"/>
+      <g text-anchor="middle" font-size="15">
+        <text x="165" y="257" font-weight="600">一月</text>
+        <text x="99" y="257">二月</text>
+        <text x="33" y="257">三月</text>
+      </g>
+      <g fill="none" stroke="#525252" stroke-width="1.4" stroke-linecap="round" marker-end="url(#arrow)">
+        <path d="M144 251 H120"/>
+        <path d="M78 251 H54"/>
+      </g>
+    </g>
+  </g>
+</svg>

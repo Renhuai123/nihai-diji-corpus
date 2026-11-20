@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">看子就好了</title>
+  <desc id="desc">用三段相邻的弧带对照三层的「子」，从内到外依次是地、人、天。第一层画出黑板上两条短线隔出的子格，其余两层只示意「子」所在的层次。</desc>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#272727">
+    <rect x="54" y="37" width="180" height="49" rx="3" fill="none" stroke="#484848" stroke-width="1.5"/>
+    <text x="144" y="70" text-anchor="middle" font-size="25" font-weight="600">看子就好了</text>
+
+    <g transform="translate(0 35)">
+      <path d="M175.99 129.91 A890 890 0 0 0 770.21 198.03
+               L787.47 279.22 A973 973 0 0 1 139.61 204.51 Z"
+            fill="#f5f5f3"/>
+
+      <g fill="none" stroke="#393939" stroke-width="2.2" stroke-linecap="round">
+        <path d="M212.39 55.31 A807 807 0 0 0 752.95 116.85"/>
+        <path d="M175.99 129.91 A890 890 0 0 0 770.21 198.03"/>
+        <path d="M139.61 204.51 A973 973 0 0 0 787.47 279.22"/>
+        <path d="M103.22 279.11 A1056 1056 0 0 0 804.72 360.40"/>
+      </g>
+
+      <g stroke="#494949" stroke-width="2.2" stroke-linecap="round">
+        <path d="M390.15 114.23 L370.33 194.83"/>
+        <path d="M599.48 135.39 L601.38 218.39"/>
+      </g>
+
+      <g text-anchor="middle" font-size="36" font-weight="500">
+        <text x="486" y="184" fill="#a43e32">子</text>
+        <text x="439" y="264">子</text>
+        <text x="607" y="356">子</text>
+      </g>
+
+      <g fill="none" stroke="#858585" stroke-width="1.3" stroke-linecap="round">
+        <path d="M751 159 H802"/>
+        <path d="M768 240 H802"/>
+        <path d="M785 322 H802"/>
+      </g>
+
+      <g font-size="19" fill="#555">
+        <text x="816" y="166">第一层</text>
+        <text x="816" y="247">第二层</text>
+        <text x="816" y="329">第三层</text>
+      </g>
+      <g font-size="28" font-weight="600">
+        <text x="888" y="169">地</text>
+        <text x="888" y="250">人</text>
+        <text x="888" y="332">天</text>
+      </g>
+    </g>
+  </g>
+</svg>

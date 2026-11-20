@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">丁山癸向</title>
+  <desc id="desc">左图俯看山势，两侧向内环抱。山龙从丁这一端来，称为丁龙，这一端就是坐山，对面为癸向。右图用未标坐向的房间草图重现课堂追问。</desc>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#282828">
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M289 89
+               C292 115 280 130 247 142
+               C192 161 147 185 118 228
+               C89 271 88 321 111 356
+               C131 386 169 403 217 397
+               C228 395 230 389 219 385
+               C177 373 152 347 151 314
+               C148 270 178 234 220 214
+               C246 201 268 196 285 201
+               C302 206 308 221 320 237
+               C326 245 332 244 336 234
+               C343 215 350 195 368 190
+               C400 181 448 206 476 237
+               C501 265 509 298 497 328
+               C487 353 467 369 440 379
+               C429 384 433 390 445 390
+               C490 389 527 366 544 332
+               C564 292 553 245 524 208
+               C492 169 447 146 397 133
+               C363 124 349 110 345 89"
+            fill="#f1f1ee" stroke="#41413e" stroke-width="2.4"/>
+      <path d="M273 158
+               C215 170 160 202 137 249
+               C115 294 121 342 166 371
+               M366 151
+               C421 153 483 190 511 237
+               C535 279 529 330 488 360"
+            stroke="#c1c1ba" stroke-width="1.5"/>
+      <path d="M317 96 C315 127 321 173 327 208
+               M319 198 L327 208 L331 195"
+            stroke="#494945" stroke-width="2.4"/>
+    </g>
+
+    <text x="317" y="62" text-anchor="middle" font-size="30" font-weight="600">丁山</text>
+    <path d="M356 52 H379" fill="none" stroke="#999992" stroke-width="1.3"/>
+    <text x="389" y="60" font-size="21">坐山</text>
+
+    <text x="216" y="116" text-anchor="end" font-size="20">丁龙</text>
+    <path d="M228 110 H256 L294 128" fill="none" stroke="#777771" stroke-width="1.3" stroke-linecap="round"/>
+    <text x="346" y="175" font-size="19">来龙</text>
+
+    <path d="M327 261 V426" fill="none" stroke="#777771" stroke-width="1.6" stroke-dasharray="6 7" stroke-linecap="round"/>
+    <path d="M320 418 L327 429 L334 418" fill="none" stroke="#555550" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="327" y="474" text-anchor="middle" font-size="29" font-weight="600">癸向</text>
+
+    <path d="M618 106 V426" fill="none" stroke="#deded9" stroke-width="1.2"/>
+
+    <g text-anchor="middle">
+      <text x="777" y="151" font-size="23">坐北朝南</text>
+      <g fill="none" stroke="#494945" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="703" y="185" width="148" height="124" rx="1"/>
+        <path d="M748 185 V234 H703 M758 309 V270 H796 V309"/>
+        <path d="M817 291 V283 M825 291 V280 M833 291 V282" stroke-width="1.6"/>
+      </g>
+      <text x="777" y="367" font-size="22" font-weight="500">哪里是坐</text>
+      <text x="777" y="401" font-size="22" font-weight="500">哪是朝</text>
+    </g>
+  </g>
+</svg>

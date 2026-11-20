@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">朝山取穴位：上不过眼，下不过心</title>
+  <desc id="desc">侧视图。地师面向右方案山。坡下淡色小人的眼睛低于案山顶，箭头示意他向后退上山坡。站定后，案山顶略低于眼睛、略高于胸部。正后方坡面上的朱红小圆点标出穴位。</desc>
+
+  <defs>
+    <g id="person" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path fill="#fff" d="M-7-89 C-7-96-2-100 4-99 C10-99 14-95 14-89 L17-85 L14-84 C14-79 11-76 6-76 L5-71 L-3-72 L-2-79 C-6-81-7-85-7-89Z"/>
+      <circle cx="11" cy="-90" r="1.7" fill="currentColor" stroke="none"/>
+      <path d="M-3-72 Q-9-70-9-61 L-8-40 Q-8-36-5-34 L7-34 Q10-45 10-54 L9-64 Q9-69 5-71"/>
+      <path d="M-3-65 L-4-51 L1-40 M-5-34 L-8-17 L-12-1 L-5-1 M6-34 L8-18 L12 0 L19 0"/>
+      <circle cx="10" cy="-64" r="2.5" fill="currentColor" stroke="none"/>
+    </g>
+    <marker id="retreat" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M1 1 L8 5 L1 9" fill="none" stroke="#555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#242424">
+    <rect x="46" y="36" width="200" height="49" rx="3" fill="none" stroke="#444" stroke-width="1.5"/>
+    <text x="146" y="69" text-anchor="middle" font-size="25" font-weight="600" letter-spacing="2">朝山取穴位</text>
+
+    <!-- 左坡落至平地，右侧案山隆起。 -->
+    <path d="M46 182 Q140 223 229 260 Q280 280 307 287 Q322 292 338 292
+             Q387 307 439 336 Q481 360 515 376 Q538 388 568 388
+             L632 388 Q663 387 684 346 Q709 295 738 253
+             Q766 216 787 215 Q809 215 832 243 Q862 281 887 313 Q901 331 914 339
+             L914 448 L46 448Z" fill="#f4f4f2"/>
+    <path d="M46 182 Q140 223 229 260 Q280 280 307 287 Q322 292 338 292
+             Q387 307 439 336 Q481 360 515 376 Q538 388 568 388
+             L632 388 Q663 387 684 346 Q709 295 738 253
+             Q766 216 787 215 Q809 215 832 243 Q862 281 887 313 Q901 331 914 339"
+          fill="none" stroke="#343434" stroke-width="2.2" stroke-linecap="round"/>
+
+    <!-- 站定后的眼高为 202，胸高为 228；案山顶在 215。 -->
+    <g fill="none" stroke="#747474" stroke-width="1.4" stroke-dasharray="7 5">
+      <path d="M331 202 H794"/>
+      <path d="M330 228 H791"/>
+    </g>
+    <use href="#person" transform="translate(320 292)" color="#222"/>
+    <use href="#person" transform="translate(521 377)" color="#999" opacity=".64"/>
+
+    <g font-size="18">
+      <text x="610" y="189" text-anchor="middle">上不过眼</text>
+      <text x="610" y="255" text-anchor="middle">下不过心</text>
+      <text x="251" y="201" text-anchor="end">眼睛</text>
+      <text x="251" y="231" text-anchor="end">胸部</text>
+    </g>
+    <g fill="none" stroke="#888" stroke-width="1.1" stroke-linecap="round">
+      <path d="M262 196 H285 L308 202"/>
+      <path d="M262 226 H286 L307 228"/>
+    </g>
+
+    <path d="M487 327 Q437 300 382 280" fill="none" stroke="#555" stroke-width="1.6" stroke-linecap="round" marker-end="url(#retreat)"/>
+    <text x="440" y="290" text-anchor="middle" font-size="19">退后</text>
+
+    <text x="106" y="184" font-size="21">山势</text>
+    <text x="800" y="185" font-size="21">案山</text>
+
+    <g fill="none" stroke="#666" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M264 274 L233 327 H181"/>
+      <path d="M327 298 L340 329"/>
+    </g>
+    <circle cx="264" cy="273.4" r="5.8" fill="#b43b30" stroke="#fff" stroke-width="1.4"/>
+    <text x="118" y="354" font-size="20">穴位<tspan font-size="16">（正后方）</tspan></text>
+    <text x="344" y="354" text-anchor="middle" font-size="19">站在这边</text>
+  </g>
+</svg>

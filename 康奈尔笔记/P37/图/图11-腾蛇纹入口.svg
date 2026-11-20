@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">腾蛇纹入口</title>
+  <desc id="desc">两幅正面图并列，鼻翼和嘴的位置相同。左图两条法令纹向下、向两侧张开，右图两纹的下端转向内侧，分别接到左右嘴角。</desc>
+  <defs>
+    <g id="face" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-132 0 C-131 53 -122 104 -98 145 C-80 176 -44 204 -18 210 Q0 214 18 210 C44 204 80 176 98 145 C122 104 131 53 132 0"
+            stroke="#c7c7c4" stroke-width="1.8"/>
+      <g stroke="#888884" stroke-width="2">
+        <path d="M-16 -38 C-16 -24 -19 -12 -24 -4 M16 -38 C16 -24 19 -12 24 -4"/>
+        <path d="M-26 -5 C-36 -2 -36 13 -26 16 C-21 18 -16 15 -12 15 Q0 25 12 15 C16 15 21 18 26 16 C36 13 36 -2 26 -5"/>
+      </g>
+      <path d="M-33 117 C-23 114 -13 109 -7 110 Q0 113 7 110 C13 109 23 114 33 117 C22 126 -22 126 -33 117Z"
+            fill="#f4f4f2" stroke="#777773" stroke-width="1.8"/>
+    </g>
+    <path id="fold" d="M-41 13 C-49 28 -65 46 -72 65 C-75 73 -77 81 -78 89" fill="none"/>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g transform="translate(262 168)">
+    <use href="#face"/>
+    <g fill="none" stroke="#343432" stroke-width="3.3" stroke-linecap="round">
+      <use href="#fold"/>
+      <use href="#fold" transform="scale(-1 1)"/>
+      <path d="M-78 89 C-80 103 -81 119 -81 133 M78 89 C80 103 81 119 81 133"/>
+    </g>
+  </g>
+
+  <path d="M441 245 H519 M508 235 L519 245 L508 255" fill="none" stroke="#777773" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(698 168)">
+    <use href="#face"/>
+    <g fill="none" stroke-width="3.3" stroke-linecap="round">
+      <g stroke="#343432">
+        <use href="#fold"/>
+        <use href="#fold" transform="scale(-1 1)"/>
+      </g>
+      <path d="M-78 89 C-81 108 -63 123 -48 121 Q-40 120 -33 117 M78 89 C81 108 63 123 48 121 Q40 120 33 117"
+            stroke="#ac4035"/>
+    </g>
+  </g>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="25" font-weight="500" fill="#292927" text-anchor="middle">
+    <text x="262" y="442">法令纹两条</text>
+    <text x="698" y="442">腾蛇纹入口</text>
+  </g>
+</svg>

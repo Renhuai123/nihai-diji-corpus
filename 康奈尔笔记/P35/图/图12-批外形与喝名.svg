@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">批外形与喝名</title>
+  <desc id="desc">左侧两组长弧并排，各自在下端收拢，合在一起看穴的整个象。箭头从整幅外形指向喝名，标明要先到现场亲眼看到这个穴。</desc>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#252525">
+    <rect x="52" y="40" width="180" height="48" rx="3" fill="#fff" stroke="#484848" stroke-width="1.5"/>
+    <text x="142" y="72" text-anchor="middle" font-size="24" font-weight="600">首先批外形</text>
+
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <g fill="none" stroke="#92928e" stroke-width="1.8">
+        <path d="M285 111 C309 117 315 134 311 154 C308 172 308 188 311 203"/>
+        <path d="M251 146 C213 148 169 181 143 228 C115 280 124 338 153 383"/>
+        <path d="M359 140 C400 148 442 189 467 242 C485 280 495 320 498 355"/>
+      </g>
+
+      <g fill="#f3f3f0" stroke="#373735" stroke-width="2.5">
+        <path d="M277 151
+                 C251 151 208 179 180 215
+                 C153 251 150 292 169 326
+                 C185 355 215 379 256 394
+                 C263 397 269 397 273 393
+                 C280 385 279 361 278 331
+                 L277 280
+                 C276 252 283 231 301 209
+                 C280 226 264 249 258 274
+                 C249 310 255 352 264 376
+                 C238 360 215 336 208 308
+                 C196 262 216 219 252 187
+                 C266 175 283 163 285 156
+                 Q286 151 277 151 Z"/>
+        <path d="M339 145
+                 C364 147 401 176 425 213
+                 C450 252 452 289 435 326
+                 C419 359 390 382 353 391
+                 C345 393 338 393 334 388
+                 C327 379 327 354 326 326
+                 L324 271
+                 C323 245 319 222 311 203
+                 C327 219 340 243 345 270
+                 C351 302 349 346 348 373
+                 C371 361 392 340 404 313
+                 C421 274 410 235 387 204
+                 C370 181 348 164 336 153
+                 Q328 144 339 145 Z"/>
+      </g>
+    </g>
+
+    <path d="M136 416 V426 H485 V416" fill="none" stroke="#888884" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="310" y="465" text-anchor="middle" font-size="22">整个象</text>
+
+    <text x="642" y="243" text-anchor="middle" font-size="21">现场看到了以后</text>
+    <path d="M528 265 H754 M744 258 L754 265 L744 272" fill="none" stroke="#595956" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <text x="839" y="275" text-anchor="middle" font-size="29" font-weight="600">喝它的名</text>
+  </g>
+</svg>

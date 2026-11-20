@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">官星假穴</title>
+  <desc id="desc">俯视示意。山脉从祖山经少祖接到中央主穴，两侧山势向前环抱，前伸的一截为官，向后扫出的山尾为鬼。循箭头可见，官旁相会的两股水，一股由主穴流出，一股是小水，这处前伸的山头便是容易误认的官星假穴。</desc>
+  <defs>
+    <marker id="flow" viewBox="0 0 10 8" refX="8" refY="4" markerWidth="7" markerHeight="6" orient="auto">
+      <path d="M1 1 L8 4 L1 7" fill="none" stroke="#565656" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <!-- 连成一体的山形。图上为环抱的前缘，图下为来脉。 -->
+  <path d="M419 506
+           C431 487 445 468 438 447
+           C432 429 415 420 393 412
+           C321 387 267 342 251 283
+           C235 223 246 167 279 135
+           C298 117 304 96 295 73
+           C317 83 328 106 322 131
+           C348 123 378 129 400 148
+           C362 143 331 157 313 185
+           C285 231 297 285 339 321
+           C366 344 418 357 451 382
+           C455 362 447 338 453 316
+           C457 300 466 289 479 285
+           C494 291 501 306 501 325
+           C501 344 494 362 501 381
+           C532 358 580 347 612 318
+           C649 285 665 234 648 198
+           C635 170 605 151 566 147
+           C603 135 645 149 672 180
+           C714 230 699 301 663 348
+           C652 363 649 383 660 402
+           C672 422 695 441 719 453
+           C686 451 656 439 635 417
+           C623 404 615 391 613 380
+           C591 397 559 408 535 419
+           C511 431 501 446 502 464
+           C503 478 516 495 526 506
+           C502 516 449 517 419 506 Z"
+        fill="#f1f1ef" stroke="#383838" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 山脊的分合用细线交代，水流另以箭头表示。 -->
+  <g fill="none" stroke="#aaa9a5" stroke-width="1.4" stroke-linecap="round">
+    <path d="M453 423 C431 399 393 390 357 369 C313 344 278 301 272 255
+             C266 211 277 175 303 149 C311 138 316 122 312 109"/>
+    <path d="M303 149 C327 137 349 135 369 140"/>
+    <path d="M495 422 C517 401 552 391 583 372 C624 348 661 308 672 267
+             C684 221 664 181 624 161"/>
+    <path d="M645 325 C631 351 630 377 642 397 C651 413 662 425 681 435"/>
+    <path d="M472 496 C487 476 467 460 469 440 C470 422 483 410 479 390
+             C475 369 466 350 470 329 C472 316 479 305 479 295"
+          stroke="#777" stroke-width="1.8"/>
+  </g>
+
+  <!-- 从主穴旁循水外出，在官的前端与小水汇成一路。 -->
+  <g fill="none" stroke="#565656" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M479 278 C480 249 469 218 455 194" marker-end="url(#flow)"/>
+    <path d="M455 194 C433 154 409 126 376 107 C351 93 334 80 318 70"/>
+    <path d="M378 31 C365 34 354 43 345 52" marker-end="url(#flow)"/>
+    <path d="M345 52 C336 61 327 67 318 70"/>
+    <path d="M318 70 C295 62 275 60 253 57 C234 54 218 47 204 40" marker-end="url(#flow)"/>
+  </g>
+
+  <g fill="none" stroke="#858585" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M198 93 H253 L292 75"/>
+    <path d="M211 144 H256 L309 113"/>
+    <path d="M510 167 H470 L445 177"/>
+    <path d="M530 281 H502 L485 285"/>
+    <path d="M569 339 H519 L473 342"/>
+    <path d="M747 422 H717 L697 439"/>
+    <path d="M392 451 H436 L466 443"/>
+    <path d="M378 499 H425 L468 493"/>
+  </g>
+
+  <circle cx="479" cy="285" r="6" fill="#af3c31" stroke="#fff" stroke-width="1.6"/>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#272727">
+    <text x="186" y="100" text-anchor="end" font-size="23" font-weight="600">官星假穴</text>
+    <text x="199" y="152" text-anchor="end" font-size="24">官</text>
+    <text x="390" y="38" font-size="19">小水</text>
+    <text x="521" y="174" font-size="19">主穴的水</text>
+    <text x="540" y="289" font-size="23" font-weight="600">主穴</text>
+    <text x="578" y="346" font-size="19">真正的龙脉</text>
+    <text x="759" y="430" font-size="24">鬼</text>
+    <text x="380" y="458" text-anchor="end" font-size="19">少祖</text>
+    <text x="366" y="506" text-anchor="end" font-size="19">祖山</text>
+  </g>
+</svg>

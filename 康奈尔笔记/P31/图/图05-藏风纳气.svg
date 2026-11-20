@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">藏风纳气</title>
+  <desc id="desc">左图俯看山势，两侧山脊向内弯抱，上方留口，朱红点标出怀内靠近底弧的位置，风不容易吹进来。右图侧看山顶，风迎面吹向站在顶上的人。</desc>
+
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#282828">
+    <rect x="46" y="36" width="166" height="49" rx="3" fill="none" stroke="#444" stroke-width="1.5"/>
+    <text x="129" y="69" text-anchor="middle" font-size="25" font-weight="600" letter-spacing="2">藏风纳气</text>
+
+    <!-- 两翼与下方来脊连为一体。上方的两端收细，留出开口。 -->
+    <path d="M168 479
+             C173 441 171 409 153 376
+             C127 343 114 303 121 263
+             C129 210 172 160 217 140
+             C235 132 252 129 267 130
+             C242 149 215 175 196 205
+             C173 242 169 279 183 309
+             C200 345 241 365 290 366
+             C340 368 390 348 416 313
+             C439 282 442 245 425 210
+             C412 183 390 161 365 144
+             C392 146 422 160 449 183
+             C487 215 503 257 494 299
+             C483 354 435 393 376 408
+             C337 418 301 417 271 412
+             C243 408 224 417 215 436
+             C208 451 206 465 205 479"
+          fill="#efefed" stroke="#60605d" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- 山脊的棱线在底弧处分出两翼。 -->
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M186 479 C190 437 191 408 172 374
+               C150 338 139 303 146 266
+               C154 218 192 166 245 141"
+            stroke="#41413f" stroke-width="2.4"/>
+      <path d="M172 374 C210 389 249 397 292 395
+               C358 394 418 371 451 327
+               C474 296 478 258 464 222
+               C449 188 418 163 384 151"
+            stroke="#41413f" stroke-width="2.4"/>
+      <g stroke="#b9b9b5" stroke-width="1.2">
+        <path d="M145 281 Q135 294 134 307 M149 319 Q142 327 143 339"/>
+        <path d="M224 389 Q235 400 247 404 M368 382 Q382 384 394 379"/>
+        <path d="M463 306 Q476 297 483 282 M469 255 Q478 248 477 239"/>
+        <path d="M187 432 Q195 422 204 419"/>
+      </g>
+    </g>
+
+    <g font-size="20">
+      <text x="56" y="226">左龙</text>
+      <text x="518" y="226">右虎</text>
+    </g>
+    <g fill="none" stroke="#888" stroke-width="1.2" stroke-linecap="round">
+      <path d="M103 220 H128 L152 232"/>
+      <path d="M509 220 H490 L467 234"/>
+    </g>
+
+    <text x="302" y="261" text-anchor="middle" font-size="21">风不容易吹进来</text>
+    <text x="302" y="313" text-anchor="middle" font-size="17">这个位置上</text>
+    <path d="M302 322 V344" fill="none" stroke="#888" stroke-width="1.2"/>
+    <circle cx="302" cy="352" r="6" fill="#b43b30"/>
+
+    <!-- 同一原则的反例用侧视画出，让风线直接抵达人所在的高度。 -->
+    <path d="M592 417
+             C637 402 672 369 703 331
+             C726 303 752 278 775 271
+             Q785 268 795 271
+             C818 277 842 307 862 333
+             C881 359 899 376 918 386
+             L918 447 H592Z" fill="#f3f3f1"/>
+    <path d="M592 417
+             C637 402 672 369 703 331
+             C726 303 752 278 775 271
+             Q785 268 795 271
+             C818 277 842 307 862 333
+             C881 359 899 376 918 386"
+          fill="none" stroke="#41413f" stroke-width="2.2" stroke-linecap="round"/>
+
+    <g fill="none" stroke="#383838" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="792" cy="213" r="6.5" fill="#fff"/>
+      <path d="M790 222 L783 244 M787 230 L777 236 L769 231
+               M787 231 L795 240 L803 237
+               M783 244 L776 256 L772 271 L777 270
+               M783 244 L787 257 L795 270 L800 272"/>
+    </g>
+    <g fill="none" stroke="#777" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M624 209 C648 201 668 207 690 209 S733 211 754 206"/>
+      <path d="M608 226 C637 216 661 221 687 224 S737 228 768 220 M760 216 L768 220 L763 227"/>
+      <path d="M639 240 C661 235 679 238 698 240 S731 242 748 238"/>
+    </g>
+    <text x="649" y="191" font-size="19">风</text>
+    <path d="M847 255 H829 L805 270" fill="none" stroke="#888" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="856" y="261" font-size="20">山顶</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">内砂</title>
+  <desc id="desc">并列画出两种内砂的侧面轮廓。左边的石头方正有棱角，取象中流砥柱；右边的石头宽厚圆润，倪师说这样的内砂会聚大财。</desc>
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" text-anchor="middle" fill="#252525">
+    <rect x="435" y="38" width="90" height="44" rx="3" fill="none" stroke="#494949" stroke-width="1.4"/>
+    <text x="480" y="68" font-size="24" font-weight="600">内砂</text>
+
+    <g fill="none" stroke="#898989" stroke-width="1.3">
+      <path d="M480 82 V100 M264 112 V100 H696 V112"/>
+    </g>
+    <g font-size="23">
+      <text x="264" y="146">方方的石头</text>
+      <text x="696" y="146">肥肥圆圆的</text>
+    </g>
+
+    <g stroke-linejoin="round" stroke-linecap="round">
+      <path d="M193 362 L197 208 L216 196 L301 193 L324 205 L334 362 Z"
+            fill="#f3f3f1" stroke="#333" stroke-width="2.6"/>
+      <path d="M197 208 L285 208 L301 193 M285 208 L291 361"
+            fill="none" stroke="#a0a09b" stroke-width="1.35"/>
+
+      <path d="M612 362
+               C583 358 565 340 565 312
+               C565 278 587 245 621 227
+               C643 215 666 210 693 210
+               C739 210 781 226 806 255
+               C823 275 831 296 830 317
+               C829 341 811 357 784 362
+               C746 368 651 368 612 362 Z"
+            fill="#f3f3f1" stroke="#333" stroke-width="2.6"/>
+    </g>
+
+    <g fill="none" stroke="#777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M158 363 H369"/>
+      <path d="M264 378 V409 M258 402 L264 409 L270 402"/>
+      <path d="M696 378 V409 M690 402 L696 409 L702 402"/>
+    </g>
+    <g font-size="30" font-weight="600">
+      <text x="264" y="459">中流砥柱</text>
+      <text x="696" y="459">会聚大财</text>
+    </g>
+  </g>
+</svg>

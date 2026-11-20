@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">深潭底下的龙穴</title>
+  <desc id="desc">侧视剖面。灰色曲线示意紫气围绕山脉，箭头顺着山势指向深潭，朱红点标出山脉在潭底结束、结穴的位置。倪师讲述的故事里，此处在上古曾喷出过岩浆。</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M2 1.5 L8 5 L2 8.5" fill="none" stroke="#555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#282828">
+    <rect x="48" y="35" width="248" height="48" rx="3" fill="none" stroke="#555" stroke-width="1.4"/>
+    <text x="172" y="67" text-anchor="middle" font-size="24" font-weight="600">沿着那个龙脉找</text>
+
+    <!-- 山坡入水后继续下行，在潭底收尽。 -->
+    <path d="M48 270
+             C86 261 112 223 142 206
+             C164 193 171 201 188 184
+             C211 162 229 133 249 140
+             C268 147 282 174 304 182
+             C322 189 332 174 346 183
+             C369 197 386 225 411 231
+             C427 235 437 227 452 236
+             C487 258 505 277 535 286
+             C558 294 571 310 588 325
+             C621 354 646 387 674 408
+             C693 422 711 429 730 430
+             C756 431 774 424 792 404
+             C820 375 828 325 851 286
+             C871 253 895 239 912 237
+             L912 478 H48 Z" fill="#f3f3f0"/>
+
+    <path d="M535 286 H851
+             C828 325 820 375 792 404
+             C774 424 756 431 730 430
+             C711 429 693 422 674 408
+             C646 387 621 354 588 325
+             C571 310 558 294 535 286 Z" fill="#e9edef"/>
+
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M48 270
+               C86 261 112 223 142 206
+               C164 193 171 201 188 184
+               C211 162 229 133 249 140
+               C268 147 282 174 304 182
+               C322 189 332 174 346 183
+               C369 197 386 225 411 231
+               C427 235 437 227 452 236
+               C487 258 505 277 535 286
+               C558 294 571 310 588 325
+               C621 354 646 387 674 408
+               C693 422 711 429 730 430
+               C756 431 774 424 792 404
+               C820 375 828 325 851 286
+               C871 253 895 239 912 237" stroke="#363636" stroke-width="2.5"/>
+
+      <g stroke="#a8a8a4" stroke-width="1.5">
+        <path d="M129 188 C111 188 120 176 147 170 C173 164 186 153 201 145"/>
+        <path d="M156 196 C183 187 206 184 226 172 C246 160 267 154 285 155 C300 156 302 162 289 167"/>
+      </g>
+
+      <path d="M342 159 C374 164 391 200 419 205 C445 209 451 200 473 215 C493 228 508 243 534 252"
+            stroke="#555" stroke-width="1.7" marker-end="url(#arrow)"/>
+
+      <path d="M535 286 H851" stroke="#777f80" stroke-width="1.6"/>
+      <g stroke="#abb2b3" stroke-width="1.2">
+        <path d="M569 298 H614 M623 298 H636"/>
+        <path d="M776 298 H822"/>
+      </g>
+
+      <g stroke="#777" stroke-width="1.2">
+        <path d="M140 146 H157 L170 161"/>
+        <path d="M739 429 L776 451 H806"/>
+      </g>
+    </g>
+
+    <text x="139" y="139" text-anchor="middle" font-size="20">紫气围绕</text>
+    <text x="710" y="337" text-anchor="middle" font-size="23">深潭</text>
+    <circle cx="730" cy="430" r="6.5" fill="#b43b30" stroke="#fff" stroke-width="1.6"/>
+    <text x="818" y="458" font-size="23" font-weight="600">龙穴</text>
+  </g>
+</svg>

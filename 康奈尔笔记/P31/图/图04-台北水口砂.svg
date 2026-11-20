@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">台北水口砂</title>
+  <desc id="desc">俯视示意图。中央山脉的来龙自下方展开，两侧山势环抱台北市，新店溪与基隆河从左右汇于关渡，再穿过狭窄的水口流出。依倪师的比喻，水口左侧八里的山形似狮子，右侧关渡宫形似绣球。</desc>
+  <defs>
+    <marker id="flow" viewBox="0 0 12 12" refX="9" refY="6" markerWidth="4.5" markerHeight="4.5" orient="auto">
+      <path d="M2 1.5 L9 6 L2 10.5" fill="none" stroke="#414141" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <!-- 两侧山势同出于下方，向上回抱，顶端留出水口。 -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M451 490
+             C446 465 421 454 380 445
+             C306 430 250 402 224 350
+             C195 293 207 230 250 184
+             C279 153 318 133 357 126
+             C374 123 382 118 389 108
+             Q395 101 403 104
+             Q410 96 418 102
+             Q432 102 435 115
+             L442 122 Q445 125 440 129
+             L433 132 Q433 142 422 145
+             Q410 147 401 140
+             C388 150 369 154 352 160
+             C296 181 256 230 252 283
+             C247 344 295 388 363 408
+             C409 421 446 425 480 448
+             C514 425 551 421 597 408
+             C665 388 713 344 708 283
+             C704 230 664 182 608 160
+             C585 151 567 145 552 139
+             C543 147 528 148 519 139
+             C508 130 508 115 518 106
+             C529 96 545 98 553 109
+             Q558 115 558 122
+             C620 130 671 151 710 184
+             C753 230 765 293 736 350
+             C710 402 654 430 580 445
+             C539 454 514 465 509 490"
+          fill="#f0f0ed" stroke="#555550" stroke-width="2.1"/>
+    <g fill="none" stroke="#b7b7b0" stroke-width="1.3">
+      <path d="M467 479 C449 453 419 445 377 434 C303 417 253 384 234 341 C212 290 225 237 259 199 C288 166 324 148 366 138"/>
+      <path d="M493 479 C511 453 541 445 583 434 C657 417 707 384 726 341 C748 290 735 237 701 199 C672 166 636 148 586 136"/>
+      <path d="M391 128 Q400 124 401 115 M418 112 Q424 112 427 118"/>
+      <path d="M518 127 Q517 115 527 109 Q536 104 544 110"/>
+    </g>
+  </g>
+
+  <!-- 两支水流先合流，再从两砂之间折出。 -->
+  <g fill="none" stroke="#414141" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M367 385 C348 365 316 352 301 328 C279 294 285 255 310 227
+             C336 198 370 198 402 190 C438 182 455 189 480 166"/>
+    <path d="M598 385 C617 364 643 354 658 329 C678 296 673 258 650 233
+             C626 206 592 194 560 191 C524 187 497 188 480 166"/>
+    <path d="M480 166 C466 147 465 128 478 108 C490 90 495 77 489 53" marker-end="url(#flow)"/>
+    <path d="M311 226 Q321 215 335 208" marker-end="url(#flow)"/>
+    <path d="M650 233 Q640 222 625 213" marker-end="url(#flow)"/>
+  </g>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#282828">
+    <rect x="43" y="32" width="135" height="47" rx="3" fill="none" stroke="#454545" stroke-width="1.5"/>
+    <text x="110.5" y="64" text-anchor="middle" font-size="25" font-weight="600" letter-spacing="2">水口砂</text>
+
+    <g fill="none" stroke="#858580" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M315 94 H362 L389 112"/>
+      <path d="M643 94 H576 L551 111"/>
+      <path d="M164 302 H202 L223 310"/>
+      <path d="M796 302 H758 L737 310"/>
+      <path d="M328 289 H306 L290 282"/>
+      <path d="M632 289 H654 L671 282"/>
+    </g>
+
+    <g font-size="19">
+      <text x="301" y="85" text-anchor="end">八里</text>
+      <text x="301" y="111" text-anchor="end" font-weight="600">狮子</text>
+      <text x="657" y="85">关渡宫</text>
+      <text x="657" y="111" font-weight="600">绣球</text>
+      <text x="510" y="62">出海</text>
+      <text x="480" y="207" text-anchor="middle">关渡</text>
+      <text x="152" y="308" text-anchor="end">左边有龙</text>
+      <text x="808" y="308">右边有虎</text>
+      <text x="339" y="295">新店溪</text>
+      <text x="621" y="295" text-anchor="end">基隆河</text>
+    </g>
+
+    <text x="480" y="274" text-anchor="middle" font-size="26" font-weight="600" letter-spacing="2">台北市</text>
+    <text x="480" y="329" text-anchor="middle" font-size="20">左右有水</text>
+    <text x="480" y="359" text-anchor="middle" font-size="17" fill="#555550">不见水来不见水去</text>
+    <text x="480" y="517" text-anchor="middle" font-size="20">中央山脉的来龙</text>
+  </g>
+</svg>

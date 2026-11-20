@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">关渡两边的水口砂</title>
+  <desc id="desc">俯视示意。沿倪师所讲的水路，从新店溪出来的淡水河与另一边的基隆河会在关渡，再从狮子、绣球两处水口砂之间流出入海。倪师看来水，首先看水是否清澈。</desc>
+
+  <defs>
+    <path id="rivers" d="M266 463
+      C270 427 298 414 327 398
+      C361 380 386 366 396 336
+      C409 299 417 276 451 248
+      M738 389
+      C708 373 698 347 662 341
+      C620 334 597 346 559 326
+      C511 301 506 265 451 248
+      M451 248
+      C468 221 473 205 463 182
+      C449 151 440 138 452 112
+      C460 93 485 80 498 54"/>
+    <path id="tip" d="M-5 3 L0 -4 L5 3" fill="none" stroke="#444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#292929">
+    <rect x="45" y="35" width="104" height="48" rx="3" fill="none" stroke="#444" stroke-width="1.5"/>
+    <text x="97" y="67" text-anchor="middle" font-size="25" font-weight="600" letter-spacing="2">来水</text>
+
+    <g fill="none" stroke="#aaa9a5" stroke-width="1.4" stroke-linecap="round">
+      <path d="M696 41 V96"/>
+    </g>
+    <text x="715" y="61" font-size="23" font-weight="600">水一定要清澈</text>
+    <text x="716" y="91" font-size="18">有鱼有虾最好</text>
+
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <g fill="#f3f3f0" stroke="#70716c" stroke-width="1.7">
+        <path d="M109 425
+          C126 362 161 298 218 245
+          C256 210 301 180 347 164
+          Q368 156 385 162
+          Q376 173 356 181
+          C310 202 281 239 249 274
+          C206 321 164 379 146 431"/>
+        <path d="M839 359
+          C811 293 755 230 693 194
+          C647 168 590 152 536 157
+          Q522 158 518 165
+          Q530 172 548 172
+          C594 173 644 197 679 219
+          C733 253 783 309 807 369"/>
+      </g>
+      <g fill="none" stroke="#c6c6bf" stroke-width="1.2">
+        <path d="M137 391 C165 324 218 257 279 211 Q315 183 343 174"/>
+        <path d="M803 327 C756 247 676 186 591 169"/>
+      </g>
+    </g>
+
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <use href="#rivers" stroke="#5b5c59" stroke-width="12"/>
+      <use href="#rivers" stroke="#f3f3f1" stroke-width="8.5"/>
+    </g>
+    <use href="#tip" transform="translate(366 373) rotate(46)"/>
+    <use href="#tip" transform="translate(578 334) rotate(-68)"/>
+    <use href="#tip" transform="translate(457 116) rotate(25)"/>
+    <use href="#tip" transform="translate(498 54) rotate(27)"/>
+
+    <g fill="#fff" stroke="#42433f" stroke-width="2">
+      <circle cx="382" cy="163" r="6"/>
+      <circle cx="521" cy="164" r="6"/>
+    </g>
+    <g fill="none" stroke="#797a75" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M280 144 H340 L375 160"/>
+      <path d="M528 160 L564 143 H602"/>
+    </g>
+    <g font-size="17" fill="#585955">
+      <text x="270" y="129" text-anchor="end">水口砂</text>
+      <text x="612" y="128">水口砂</text>
+    </g>
+    <g font-size="23" font-weight="600">
+      <text x="270" y="156" text-anchor="end">狮子</text>
+      <text x="612" y="155">绣球</text>
+    </g>
+
+    <text x="517" y="54" font-size="20">入海</text>
+    <text x="271" y="84" font-size="19">观音山是朝山</text>
+
+    <circle cx="451" cy="248" r="5.6" fill="#ad4034" stroke="#fff" stroke-width="1.6"/>
+    <path d="M459 246 L481 231 H498" fill="none" stroke="#777" stroke-width="1.2"/>
+    <text x="505" y="238" font-size="23" font-weight="600">关渡</text>
+    <text x="562" y="237" font-size="17" fill="#595a56">关渡宫</text>
+
+    <text x="330" y="316" font-size="20">淡水河</text>
+    <text x="628" y="321" font-size="20">基隆河</text>
+    <text x="237" y="404" font-size="20">新店溪</text>
+    <text x="220" y="496" font-size="20">新店山区</text>
+
+    <text x="487" y="389" text-anchor="middle" font-size="24" letter-spacing="3">台北盆地</text>
+    <text x="487" y="418" text-anchor="middle" font-size="17" fill="#595a56">台北市</text>
+
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <path d="M565 467
+        Q585 465 600 453 L624 435 Q628 432 632 436
+        L643 446 Q650 450 656 445 L675 428
+        L695 408 Q699 404 703 410 L715 424
+        Q722 431 729 425 L751 405 L773 383
+        Q778 377 783 384 L803 408 L813 400
+        Q817 397 821 402 L848 434 Q857 444 876 449
+        L876 467 Z" fill="#f3f3f0"/>
+      <path d="M565 467 Q585 465 600 453 L624 435 Q628 432 632 436
+        L643 446 Q650 450 656 445 L675 428 L695 408 Q699 404 703 410
+        L715 424 Q722 431 729 425 L751 405 L773 383 Q778 377 783 384
+        L803 408 L813 400 Q817 397 821 402 L848 434 Q857 444 876 449"
+        fill="none" stroke="#777872" stroke-width="1.6"/>
+    </g>
+    <g font-size="18" text-anchor="middle">
+      <text x="627" y="493">少祖山</text>
+      <text x="784" y="493">中央山脉</text>
+    </g>
+  </g>
+</svg>

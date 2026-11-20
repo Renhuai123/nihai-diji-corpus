@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">水的有情与无情</title>
+  <desc id="desc">俯视对照。左侧水道横向往返，顺着箭头绕过圆弯，曲折入明堂。右侧水道从头到尾沿直线流去。</desc>
+
+  <defs>
+    <path id="winding" d="M77 145
+      C144 145 219 136 292 139
+      C329 140 353 147 353 168
+      C353 189 331 196 294 197
+      C250 198 207 192 167 195
+      C133 197 111 205 111 224
+      C111 243 133 251 168 251
+      C213 251 261 242 304 244
+      C339 246 361 254 361 274
+      C361 294 340 303 306 304
+      C254 306 202 298 153 303
+      C122 306 104 315 104 333
+      C104 351 125 362 157 363
+      C222 366 292 355 360 365"/>
+    <path id="straight" d="M577 145 L863 365"/>
+    <path id="flow" d="M-7 -5 L0 0 L-7 5" fill="none" stroke="#454545" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+  <path d="M480 64 V470" fill="none" stroke="#dededb" stroke-width="1"/>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#262626">
+    <g text-anchor="middle" font-size="29" font-weight="600">
+      <text x="240" y="87">有情</text>
+      <text x="720" y="87">无情水</text>
+    </g>
+
+    <g fill="none" stroke-linecap="butt" stroke-linejoin="round">
+      <g stroke="#555552" stroke-width="16">
+        <use href="#winding"/>
+        <use href="#straight"/>
+      </g>
+      <g stroke="#eeefec" stroke-width="13">
+        <use href="#winding"/>
+        <use href="#straight"/>
+      </g>
+    </g>
+
+    <g>
+      <use href="#flow" transform="translate(214 140) rotate(-2)"/>
+      <use href="#flow" transform="translate(226 195) rotate(181)"/>
+      <use href="#flow" transform="translate(237 247) rotate(-4)"/>
+      <use href="#flow" transform="translate(227 302) rotate(180)"/>
+      <use href="#flow" transform="translate(347 363) rotate(7)"/>
+      <use href="#flow" transform="translate(651 202) rotate(37.57)"/>
+      <use href="#flow" transform="translate(747 276) rotate(37.57)"/>
+      <use href="#flow" transform="translate(853 357) rotate(37.57)"/>
+    </g>
+
+    <text x="374" y="373" font-size="20">明堂</text>
+
+    <g text-anchor="middle" font-size="23">
+      <text x="240" y="451">曲折入明堂</text>
+      <text x="720" y="451">直来直去的水</text>
+    </g>
+  </g>
+</svg>

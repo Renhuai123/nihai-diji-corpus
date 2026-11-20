@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">整个地形</title>
+  <desc id="desc">平原上有三处树丛，左、中两处较大，右端一处较小且稍低。近看一处，可以细看树和草。合看三处，河流从左经中向右下弯去，种子随水而行。</desc>
+
+  <defs>
+    <g id="tree" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-3 3 C-12 5-19 0-18-7 C-22-13-18-21-11-22 C-11-30-3-35 4-31 C10-33 17-28 17-21 C25-18 25-9 20-5 C19 2 10 6 3 3Z"
+            fill="#e8e8e4" stroke="#41413e" stroke-width="1.9"/>
+      <path d="M0 15 V-13 M0-3 L-7-10 M0-7 L7-14"
+            fill="none" stroke="#51514d" stroke-width="1.8"/>
+    </g>
+    <g id="grass" fill="none" stroke="#676762" stroke-width="1.8" stroke-linecap="round">
+      <path d="M-2 0 Q-5-6-9-8 M0 0 Q-1-8 2-13 M3 0 Q6-6 10-7"/>
+    </g>
+    <path id="seed" d="M-5 0 Q-1-5 5-1 Q2 4-3 3 Q-5 2-5 0Z" fill="#50504c"/>
+    <marker id="flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M2 1.5 L8 5 L2 8.5" fill="none" stroke="#53534f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#282826">
+    <rect x="46" y="36" width="231" height="49" rx="3" fill="#fff" stroke="#444440" stroke-width="1.5"/>
+    <text x="161.5" y="69" text-anchor="middle" font-size="25" font-weight="600" letter-spacing="1">我们看整个地形</text>
+
+    <g fill="#f6f6f3" stroke="#62625d" stroke-width="1.8" stroke-linejoin="round">
+      <path d="M73 266 C68 231 92 204 132 198 C167 188 211 196 231 219 C256 244 253 275 230 293 C207 314 161 319 122 310 C93 304 76 289 73 266Z"/>
+      <path d="M392 249 C389 214 412 189 448 182 C483 174 526 181 550 203 C574 225 576 256 556 278 C535 301 492 309 452 301 C418 295 396 278 392 249Z"/>
+      <path d="M752 343 C748 322 761 304 785 298 C806 291 834 295 848 310 C864 324 864 345 849 360 C833 375 804 381 782 373 C765 368 755 357 752 343Z"/>
+    </g>
+
+    <g>
+      <use href="#tree" transform="translate(132 238) scale(.83)"/>
+      <use href="#tree" transform="translate(180 235) scale(.97)"/>
+      <use href="#tree" transform="translate(150 259)"/>
+      <use href="#grass" transform="translate(203 265)"/>
+      <use href="#grass" transform="translate(112 269) scale(.74)"/>
+
+      <use href="#tree" transform="translate(452 220) scale(.84)"/>
+      <use href="#tree" transform="translate(500 217) scale(.92)"/>
+      <use href="#tree" transform="translate(475 245) scale(1.06)"/>
+      <use href="#grass" transform="translate(529 248) scale(.86)"/>
+      <g fill="#696964">
+        <circle cx="428" cy="251" r="2.1"/>
+        <circle cx="437" cy="256" r="1.8"/>
+        <circle cx="432" cy="261" r="1.5"/>
+      </g>
+
+      <use href="#tree" transform="translate(791 324) scale(.72)"/>
+      <use href="#tree" transform="translate(815 330) scale(.78)"/>
+      <use href="#grass" transform="translate(836 341) scale(.63)"/>
+    </g>
+
+    <path d="M83 279 C146 269 197 273 245 279 C311 289 350 278 405 268 C477 254 523 255 569 273 C628 296 664 328 722 339 C766 348 806 349 846 345
+             L847 354 C803 361 760 360 718 351 C658 339 618 307 564 287 C519 270 474 271 408 283 C348 295 302 308 242 295 C188 283 142 278 83 285Z"
+          fill="#e5e5e2"/>
+    <g fill="none" stroke="#646460" stroke-width="1.65" stroke-linecap="round">
+      <path d="M83 279 C146 269 197 273 245 279 C311 289 350 278 405 268 C477 254 523 255 569 273 C628 296 664 328 722 339 C766 348 806 349 846 345"/>
+      <path d="M83 285 C142 278 188 283 242 295 C302 308 348 295 408 283 C474 271 519 270 564 287 C618 307 658 339 718 351 C760 360 803 361 847 354"/>
+    </g>
+
+    <g>
+      <use href="#seed" transform="translate(272 291) rotate(13)"/>
+      <use href="#seed" transform="translate(284 293) rotate(-9) scale(.78)"/>
+      <use href="#seed" transform="translate(593 291) rotate(28)"/>
+      <use href="#seed" transform="translate(605 297) rotate(17) scale(.78)"/>
+    </g>
+    <g fill="none" stroke="#53534f" stroke-width="1.6" stroke-linecap="round" marker-end="url(#flow)">
+      <path d="M300 293 Q324 292 345 287"/>
+      <path d="M619 304 Q640 316 658 324"/>
+    </g>
+
+    <g fill="none" stroke="#888882" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M112 170 V185 L127 209"/>
+      <path d="M259 189 H244 L208 251"/>
+      <path d="M332 358 V329 L318 301"/>
+      <path d="M589 376 V337 L604 304"/>
+    </g>
+    <g font-size="19">
+      <text x="112" y="158" text-anchor="middle">树的分类</text>
+      <text x="268" y="195">草分哪几类</text>
+      <text x="332" y="385" text-anchor="middle">河流</text>
+      <text x="589" y="403" text-anchor="middle">种子</text>
+    </g>
+  </g>
+</svg>

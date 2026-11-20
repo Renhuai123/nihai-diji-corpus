@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">峡土验脉</title>
+  <desc id="desc">俯视图。来龙从左侧延伸，在两边山头相夹的过峡处收窄，再延伸到朱红点标出的穴位。按倪师所讲，在峡处和穴内分别取土，两处土色应当相同。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M2 1.5 L8 5 L2 8.5" fill="none" stroke="#545454" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#292929" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M68 216
+             C82 186 127 169 179 173
+             C242 177 281 198 334 215
+             C377 229 411 237 451 237
+             C507 237 559 213 618 199
+             C680 184 739 184 789 196
+             C837 207 872 228 885 249
+             C868 276 833 290 788 298
+             C718 311 658 296 595 281
+             C533 266 493 257 451 257
+             C399 257 355 272 306 291
+             C249 313 188 326 134 317
+             C86 309 49 281 58 244
+             Q61 228 68 216Z"
+          fill="#ebebe8" stroke="#383838" stroke-width="2.3"/>
+
+    <g stroke="#777772" stroke-width="1.6" fill="#f7f7f5">
+      <path d="M312 123
+               C320 90 357 60 403 49
+               C450 37 506 46 543 73
+               C572 94 588 120 580 140
+               C573 158 542 166 515 179
+               C490 191 473 208 450 212
+               C425 214 404 196 382 185
+               C345 168 303 156 312 123Z"/>
+      <path d="M311 356
+               C328 333 361 322 391 307
+               C415 295 429 282 451 281
+               C475 280 493 298 520 311
+               C550 326 582 337 586 359
+               C591 386 557 407 518 418
+               C473 431 411 428 365 416
+               C325 405 291 385 311 356Z"/>
+    </g>
+
+    <g fill="none" stroke="#b3b3ad" stroke-width="1.25">
+      <path d="M348 121 C361 93 400 74 439 72 C483 69 525 86 543 112
+               C557 132 534 143 509 151 C485 159 466 176 447 178
+               C426 179 406 165 384 157 C359 148 338 140 348 121Z"/>
+      <path d="M347 359 C365 342 392 337 415 324 C432 314 443 309 457 310
+               C476 311 493 326 518 337 C543 348 557 359 549 373
+               C535 393 485 404 443 401 C395 399 327 384 347 359Z"/>
+    </g>
+
+    <g font-size="20" text-anchor="middle">
+      <text x="446" y="128">山头</text>
+      <text x="448" y="367">山头</text>
+    </g>
+    <g fill="none" stroke="#545454" stroke-width="1.8" marker-end="url(#arrow)">
+      <path d="M451 190 V229"/>
+      <path d="M451 301 V265"/>
+    </g>
+
+    <text x="146" y="255" font-size="24">来龙</text>
+    <path d="M393 216 H410 L438 246" fill="none" stroke="#666" stroke-width="1.3"/>
+    <text x="383" y="222" text-anchor="end" font-size="22">峡</text>
+    <circle cx="441" cy="248" r="3.5" fill="#484848"/>
+
+    <path d="M763 237 L787 215 H802" fill="none" stroke="#666" stroke-width="1.3"/>
+    <circle cx="760" cy="240" r="6" fill="#af3c30" stroke="#fff" stroke-width="1.6"/>
+    <text x="810" y="221" font-size="21">穴位</text>
+
+    <g text-anchor="middle">
+      <text x="340" y="496" font-size="25">峡土的颜色</text>
+      <text x="480" y="494" font-size="19" fill="#60605c">相等于</text>
+      <text x="626" y="496" font-size="25">穴内土的颜色</text>
+    </g>
+  </g>
+</svg>

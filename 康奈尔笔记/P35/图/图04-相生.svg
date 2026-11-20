@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">相生、相克与比肩</title>
+  <desc id="desc">上行从木起，用四支箭头依次连到火、土、金、水。中行并列四组相克关系，下行用两人齐平的肩膀示意属性相同叫作比肩。</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M2 1 L10 6 L2 11" fill="none" stroke="#494949" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <g id="shoulders" fill="#f6f6f4" stroke="#343434" stroke-width="2" stroke-linejoin="round">
+      <path d="M-42 44 V18 Q-42 0 -28 0 H-18 Q-10 0 -10 -9 V-17 H10 V-9 Q10 0 18 0 H28 Q42 0 42 18 V44" />
+      <path d="M-17 -34 C-17 -47 -10 -55 0 -55 C10 -55 17 -47 17 -34 C17 -20 10 -11 0 -11 C-10 -11 -17 -20 -17 -34 Z"/>
+    </g>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#262626" text-anchor="middle">
+    <g fill="none" stroke="#dededb" stroke-width="1">
+      <path d="M52 179 H908"/>
+      <path d="M52 324 H908"/>
+    </g>
+
+    <g fill="#f5f5f3" stroke="#555" stroke-width="1.4">
+      <rect x="52" y="77" width="96" height="46" rx="3"/>
+      <rect x="52" y="229" width="96" height="46" rx="3"/>
+      <rect x="52" y="405" width="96" height="46" rx="3"/>
+    </g>
+    <g font-size="24" font-weight="600">
+      <text x="100" y="109">相生</text>
+      <text x="100" y="261">相克</text>
+      <text x="100" y="437">比肩</text>
+    </g>
+
+    <g fill="none" stroke="#494949" stroke-width="1.8" stroke-linecap="round" marker-end="url(#arrow)">
+      <path d="M266 100 H354"/>
+      <path d="M425 100 H513"/>
+      <path d="M584 100 H672"/>
+      <path d="M743 100 H831"/>
+    </g>
+    <g font-size="36" font-weight="500">
+      <text x="232" y="113">木</text>
+      <text x="391" y="113">火</text>
+      <text x="550" y="113">土</text>
+      <text x="709" y="113">金</text>
+      <text x="868" y="113">水</text>
+    </g>
+
+    <g font-size="30">
+      <text x="275" y="263">木克土</text>
+      <text x="458" y="263">土克水</text>
+      <text x="641" y="263">金克木</text>
+      <text x="824" y="263">水克火</text>
+    </g>
+
+    <text x="282" y="438" font-size="28">属性相同</text>
+    <use href="#shoulders" transform="translate(526 428)"/>
+    <use href="#shoulders" transform="translate(644 428)"/>
+    <path d="M554 428 H616" fill="none" stroke="#a34132" stroke-width="1.6" stroke-dasharray="4 4"/>
+    <g fill="#a34132">
+      <circle cx="554" cy="428" r="3"/>
+      <circle cx="616" cy="428" r="3"/>
+    </g>
+    <text x="799" y="437" font-size="25">肩膀相等</text>
+  </g>
+</svg>

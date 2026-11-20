@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">杖法定穴</title>
+  <desc id="desc">平面图。第一条线顺着来龙的走向画，两股来水在下方会合后向左流出。从水口向回画第二条线，两线在上层凹弧底部的交点用朱红点标出，即穴位。</desc>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 两侧山形与中间下凹的山棱线。 -->
+    <g fill="#f5f5f2" stroke="#777771" stroke-width="1.8">
+      <path d="M481 55
+               C406 45 324 68 282 124
+               C238 183 250 259 287 313
+               C310 347 340 372 377 383
+               C351 346 326 300 321 251
+               C316 204 332 165 362 145
+               C351 187 354 222 369 253
+               C337 224 336 173 356 133
+               C382 86 429 62 481 55Z"/>
+      <path d="M552 57
+               C624 45 709 69 750 124
+               C789 177 779 251 747 307
+               C723 348 693 375 656 389
+               C683 350 705 306 711 258
+               C718 207 700 166 671 144
+               C680 181 676 219 662 251
+               C695 220 698 171 676 132
+               C650 87 603 64 552 57Z"/>
+    </g>
+
+    <path d="M362 145
+             C385 110 403 110 420 143
+             C441 184 457 220 510 220
+             C555 220 577 187 594 147
+             C611 107 637 106 671 144"
+          stroke="#494944" stroke-width="2.6"/>
+
+    <!-- 两股来水在同一点会合，接成一条向外流的水道。 -->
+    <g stroke="#b9b9b4" stroke-width="6">
+      <path d="M390 159 C373 209 391 267 437 302 C477 332 528 344 582 346"/>
+      <path d="M646 154 C665 201 654 255 632 291 C619 312 600 332 582 346"/>
+      <path d="M582 346 C571 363 539 369 541 385 C543 399 573 403 564 419
+               C554 438 515 438 502 455 C483 480 444 484 401 481"/>
+    </g>
+    <g stroke="#777772" stroke-width="1.9">
+      <path d="M405 269 L416 283 L400 278"/>
+      <path d="M645 266 L638 282 L636 266"/>
+      <path d="M449 472 L435 482 L451 489"/>
+    </g>
+
+    <!-- 顺来龙向下画第一条线，从水口沿斜线向回画第二条线。 -->
+    <path d="M510 50 V294" stroke="#353532" stroke-width="2.2"/>
+    <path d="M504 133 L510 145 L516 133" stroke="#353532" stroke-width="2"/>
+    <path d="M582 346 L446 108" stroke="#353532" stroke-width="2.2" stroke-dasharray="8 5"/>
+    <path d="M538 284 L538 269 L551 277" stroke="#353532" stroke-width="2"/>
+
+    <g stroke="#85857f" stroke-width="1.2">
+      <path d="M502 89 H470"/>
+      <path d="M545 215 L569 197 H580"/>
+      <path d="M590 352 L617 369 H647"/>
+      <path d="M364 233 H320 L300 222"/>
+      <path d="M482 267 L465 258 H416"/>
+    </g>
+  </g>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#282825">
+    <rect x="46" y="36" width="100" height="48" rx="3" fill="none" stroke="#484844" stroke-width="1.5"/>
+    <text x="96" y="69" text-anchor="middle" font-size="25" font-weight="600" letter-spacing="2">杖法</text>
+    <text x="460" y="95" text-anchor="end" font-size="20">来龙的走向</text>
+    <text x="291" y="226" text-anchor="end" font-size="19">来水</text>
+    <text x="652" y="377" font-size="21">水口</text>
+
+    <!-- 标注引线分别落在斜线与交点旁，水口处不另设穴位标记。 -->
+    <path d="M482 267 H516 L533 261" fill="none" stroke="#85857f" stroke-width="1.2"/>
+    <text x="408" y="264" text-anchor="end" font-size="19">第二条线</text>
+    <path d="M516 220 L545 215" fill="none" stroke="#85857f" stroke-width="1.2"/>
+    <text x="587" y="203" font-size="22" font-weight="600">穴位</text>
+  </g>
+
+  <circle cx="510" cy="220" r="6.5" fill="#b43b30" stroke="#fff" stroke-width="1.6"/>
+</svg>

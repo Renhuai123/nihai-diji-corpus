@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">朝向与入穴</title>
+  <desc id="desc">左侧俯视山形，两臂环抱，来龙由下方行至中央弧底的朱红穴点，穴前箭头示意朝向。右侧两行相合，表示朝向为母、为内卦，入穴为父、为外卦，内外卦配在一起成卦。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M2 1.5 L8 5 L2 8.5" fill="none" stroke="#454545" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#272727">
+    <g fill="#f3f3f1" stroke="#505050" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M217 465 C214 423 198 398 164 381 C119 358 87 324 77 275 C64 212 85 148 128 116 C139 108 151 102 164 99 C135 128 119 169 118 211 C116 262 134 297 168 317 C190 330 213 339 228 358 C246 380 248 424 248 465"/>
+      <path d="M307 465 C306 425 318 391 345 368 C377 341 407 313 419 272 C436 218 424 166 395 130 C378 108 356 94 331 87 C383 90 429 119 452 164 C481 220 477 290 448 341 C428 377 397 401 373 421 C356 435 349 448 346 465"/>
+    </g>
+    <g fill="none" stroke="#b2b2ae" stroke-width="1.3" stroke-linecap="round">
+      <path d="M146 115 C103 155 88 216 101 269 C112 310 138 337 171 355"/>
+      <path d="M354 96 C405 116 438 159 447 210 C457 269 436 316 406 350"/>
+    </g>
+    <path d="M195 192 C193 232 198 263 217 283 C228 295 242 301 260 301 C282 301 300 289 311 269 C323 247 326 219 323 191" fill="none" stroke="#505050" stroke-width="2.3" stroke-linecap="round"/>
+    <g fill="none" stroke="#454545" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow)">
+      <path d="M287 454 C286 411 276 359 262 313"/>
+      <path d="M257 288 L233 163"/>
+    </g>
+    <circle cx="260" cy="301" r="6" fill="#b43b30" stroke="#fff" stroke-width="1.6"/>
+    <path d="M269 302 L286 313 H305" fill="none" stroke="#888" stroke-width="1.2" stroke-linecap="round"/>
+    <g font-size="21">
+      <text x="227" y="143" text-anchor="middle">朝向</text>
+      <text x="313" y="321">穴</text>
+      <text x="287" y="490" text-anchor="middle">来龙</text>
+    </g>
+
+    <g fill="none" stroke="#92928e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M582 207 H610 M655 207 H684"/>
+      <path d="M582 333 H610 M655 333 H684"/>
+      <path d="M762 207 H791 Q800 207 800 216 V324 Q800 333 791 333 H762"/>
+      <path d="M800 270 H847" stroke="#454545" marker-end="url(#arrow)"/>
+    </g>
+    <g text-anchor="middle">
+      <g font-size="24">
+        <text x="548" y="216">朝向</text>
+        <text x="633" y="216">母</text>
+        <text x="548" y="342">入穴</text>
+        <text x="633" y="342">父</text>
+      </g>
+      <g font-size="26" font-weight="600">
+        <text x="723" y="216">内卦</text>
+        <text x="723" y="342">外卦</text>
+        <text x="880" y="280" font-size="30">卦</text>
+      </g>
+    </g>
+  </g>
+</svg>

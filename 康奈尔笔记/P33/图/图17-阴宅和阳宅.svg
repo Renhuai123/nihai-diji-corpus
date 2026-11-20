@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">阴宅和阳宅</title>
+  <desc id="desc">左图鸟瞰同一座山，虚线标出山中线，朱红点示意阴宅所取的穴位，小屋落在右侧龙脉的棱线旁。右图从侧面比较两栋房子，小屋的屋顶低于后山棱线，高屋的屋顶则越过后山。</desc>
+
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#242424">
+    <g fill="none" stroke="#555" stroke-width="1.4">
+      <rect x="44" y="38" width="92" height="44" rx="3"/>
+      <rect x="494" y="38" width="140" height="44" rx="3"/>
+    </g>
+    <g font-size="23" font-weight="600" text-anchor="middle">
+      <text x="90" y="68">鸟瞰</text>
+      <text x="564" y="68">侧面看</text>
+    </g>
+    <path d="M462 108 V476" fill="none" stroke="#dededb"/>
+
+    <!-- 鸟瞰：用窄灰面给两条山脊以宽度，实线标出各自的脊顶。 -->
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <path d="M231 370
+               C196 364 171 338 155 302
+               C140 268 106 260 81 232
+               C63 212 55 182 56 153
+               C67 185 85 210 106 225
+               C139 248 168 253 184 286
+               C200 320 211 342 231 353
+               C259 337 272 311 285 283
+               C300 252 334 243 355 222
+               C376 202 392 172 402 137
+               C405 175 394 207 374 235
+               C355 261 324 274 313 302
+               C296 343 270 365 231 370Z"
+            fill="#eeefec"/>
+      <g fill="none" stroke="#424442" stroke-width="2.4">
+        <path d="M59 162 C68 201 90 225 117 241
+                 C146 258 160 269 173 298 C187 330 204 351 231 361"/>
+        <path d="M231 361 C262 349 279 322 293 291
+                 C306 261 338 252 363 228 C385 206 397 173 401 146"/>
+      </g>
+
+      <path d="M231 137 V359" fill="none" stroke="#868784" stroke-width="1.5" stroke-dasharray="6 6"/>
+      <text x="231" y="122" text-anchor="middle" font-size="19">山中线</text>
+
+      <!-- 小屋用俯视屋顶表示，与旁边的脊顶线留出空隙。 -->
+      <g transform="translate(311 245) rotate(-33)" stroke="#303230" stroke-linejoin="round">
+        <rect x="-20" y="-12" width="40" height="24" fill="#fff" stroke-width="2"/>
+        <path d="M-20 -12 L-10 0 L-20 12 M-10 0 H10 M20 -12 L10 0 L20 12"
+              fill="none" stroke-width="1.5"/>
+      </g>
+      <g fill="none" stroke="#828480" stroke-width="1.2">
+        <path d="M303 230 L286 201 H271"/>
+        <path d="M347 242 L368 260 H382"/>
+        <path d="M216 315 L180 377 H148"/>
+      </g>
+      <text x="273" y="190" font-size="19">阳宅</text>
+      <text x="385" y="267" font-size="18">棱线</text>
+      <circle cx="216" cy="315" r="6.2" fill="#b43b30" stroke="#fff" stroke-width="1.6"/>
+      <text x="63" y="384" font-size="19">阴宅</text>
+      <text x="105" y="384" font-size="19">穴位</text>
+    </g>
+
+    <!-- 侧视：两屋同在前景，连续的后山轮廓在高屋遮挡处改为虚线。 -->
+    <path d="M497 179 C597 181 693 212 778 257
+             C833 286 879 323 918 363
+             V405 H497Z" fill="#f2f3f0"/>
+    <path d="M497 179 C597 181 693 212 778 257
+             C833 286 879 323 918 363"
+          fill="none" stroke="#373937" stroke-width="2.6" stroke-linecap="round"/>
+    <text x="514" y="162" font-size="19">棱线</text>
+
+    <g stroke="#343634" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M497 315 C551 301 598 302 635 309
+               C687 318 732 344 788 356 C833 365 879 368 918 373
+               V405 H497Z" fill="#fafaf8" stroke="none"/>
+      <path d="M497 315 C551 301 598 302 635 309
+               C687 318 732 344 788 356 C833 365 879 368 918 373"
+            fill="none" stroke="#a3a59f" stroke-width="1.3"/>
+
+      <path d="M555 269 L589 243 L625 269Z" fill="#fff"/>
+      <path d="M561 269 H619 V304 H561Z" fill="#fff"/>
+
+      <path d="M778 198 L829 143 L880 198Z" fill="#fff"/>
+      <path d="M785 198 H873 V365 H785Z" fill="#fff"/>
+      <path d="M785 261 Q831 286 873 322" fill="none" stroke="#696c66"
+            stroke-width="1.6" stroke-dasharray="6 5"/>
+    </g>
+
+    <g font-size="22" font-weight="600" text-anchor="middle">
+      <text x="235" y="462">棱线上不盖</text>
+      <text x="706" y="462">房子不能比山高</text>
+    </g>
+  </g>
+</svg>

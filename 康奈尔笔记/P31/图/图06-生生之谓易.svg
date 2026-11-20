@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">生生之谓易</title>
+  <desc id="desc">龙的两侧向内环抱，朱红小圈贴在内弧底边标出穴。开口上方的弯箭头表示山水流下，另一支箭头从环抱内穿过开口向外指，对应「然后小便出去」。</desc>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#262626">
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <path d="M314 138
+               C270 158 241 202 240 250
+               C238 313 279 358 340 368
+               C400 378 452 356 479 314
+               C514 259 500 189 452 153
+               C506 174 537 228 537 287
+               C537 351 505 400 450 432
+               C416 452 379 463 345 463
+               C308 463 270 446 242 420
+               C201 382 183 328 189 266
+               C195 204 225 158 268 143
+               C284 138 300 136 314 138 Z"
+            fill="#f3f3f0" stroke="#343434" stroke-width="2.8"/>
+
+      <g fill="none" stroke="#747474" stroke-width="1.9">
+        <path d="M379 36
+                 C377 53 359 66 362 82
+                 C364 94 378 99 373 112
+                 C371 118 366 123 360 127"/>
+        <path d="M362 119 L360 127 L368 125"/>
+
+        <path d="M396 192
+                 C396 157 403 124 429 101"/>
+        <path d="M421 103 L429 101 L426 109"/>
+      </g>
+
+      <g fill="none" stroke="#858585" stroke-width="1.25">
+        <path d="M129 239 H178 L199 225"/>
+        <path d="M389 70 H425"/>
+        <path d="M282 326 H305 L331 351"/>
+        <path d="M512 378 L575 292 H638"/>
+      </g>
+
+      <circle cx="342" cy="358" r="10" fill="#fff" stroke="#ae3d32" stroke-width="2.8"/>
+    </g>
+
+    <g font-size="21">
+      <text x="115" y="246" text-anchor="end">龙</text>
+      <text x="270" y="333" text-anchor="end">穴</text>
+      <text x="440" y="77">山水这样流下来</text>
+      <text x="440" y="107">然后小便出去</text>
+    </g>
+
+    <g text-anchor="middle">
+      <text x="755" y="300" font-size="28">像个子宫一样</text>
+      <path d="M755 317 V341 M750 336 L755 341 L760 336" fill="none" stroke="#858585" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="755" y="382" font-size="32" font-weight="600">生生之谓易</text>
+    </g>
+  </g>
+</svg>

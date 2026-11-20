@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">辰戌对冲</title>
+  <desc id="desc">十二个地支格沿方框排列。朱红斜线从右下侧圈起的戌连到左上侧的辰，示意倪师所说的对冲。底行的丑保留板书圈记。</desc>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" text-anchor="middle">
+    <text x="480" y="67" fill="#282828" font-size="31" font-weight="600">对冲的一定是相尅的</text>
+
+    <rect x="144" y="106" width="672" height="384" fill="#f8f8f7" stroke="#555" stroke-width="1.8"/>
+    <rect x="312" y="202" width="336" height="192" fill="#fff"/>
+    <g fill="none" stroke="#aaa" stroke-width="1.3">
+      <path d="M312 106V490 M648 106V490"/>
+      <path d="M144 202H816 M144 394H816"/>
+      <path d="M480 106V202 M480 394V490"/>
+      <path d="M144 298H312 M648 298H816"/>
+    </g>
+
+    <g fill="none" stroke="#ad4033">
+      <path d="M705 341L255 255" stroke-width="2.6" stroke-linecap="round"/>
+      <circle cx="732" cy="346" r="28" stroke-width="2.6"/>
+    </g>
+
+    <g fill="#252525" font-size="35" font-weight="600">
+      <text x="228" y="262">辰</text>
+      <text x="732" y="358">戌</text>
+    </g>
+
+    <circle cx="396" cy="442" r="23" fill="none" stroke="#999" stroke-width="1.4"/>
+    <text x="396" y="452" fill="#686868" font-size="28">丑</text>
+  </g>
+</svg>

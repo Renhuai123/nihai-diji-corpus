@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">螣蛇与三曲鼻</title>
+  <desc id="desc">左列画螣蛇来龙和勾陈所比的鹰钩鼻，中间用朱红线标出螣蛇三曲鼻侧面的三处弯曲。右侧并列标注侧曲、直曲和正脸歪了，长波浪线对应直曲。</desc>
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g fill="none" stroke="#d6d6d2" stroke-width="1.2">
+    <path d="M258 30V510"/>
+    <path d="M30 302H230"/>
+  </g>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#292929">
+    <g text-anchor="middle">
+      <text x="130" y="52" font-size="24" font-weight="600">螣蛇</text>
+      <text x="130" y="81" font-size="18">来龙</text>
+    </g>
+    <path d="M144 99
+             C136 119 141 143 132 166
+             C130 172 128 176 125 180
+             C109 190 87 202 83 220
+             C78 239 96 250 124 250
+             C152 250 174 240 176 222
+             C178 203 155 187 125 180"
+          fill="none" stroke="#383836" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="130" y="281" text-anchor="middle" font-size="20">扭扭曲曲</text>
+
+    <text x="130" y="339" text-anchor="middle" font-size="24" font-weight="600">勾陈</text>
+    <g transform="translate(66 350)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M47 49 C41 37 42 24 50 15
+               C61 3 82 2 99 9 C113 15 122 26 124 41"
+            stroke="#777774" stroke-width="1.9"/>
+      <path d="M47 49 C49 57 42 62 34 68
+               C23 77 18 85 19 94
+               C20 101 24 107 30 110
+               C28 102 32 96 39 96"
+            stroke="#30302e" stroke-width="2.8"/>
+      <path d="M39 96 Q50 92 47 101 Q41 109 44 114
+               M44 114 Q40 116 40 119 Q46 121 52 119
+               M50 58 Q60 52 69 57
+               M51 65 Q59 60 66 64 Q59 69 51 65"
+            stroke="#62625f" stroke-width="1.8"/>
+    </g>
+    <text x="130" y="506" text-anchor="middle" font-size="20">鹰钩鼻</text>
+
+    <g text-anchor="middle">
+      <text x="406" y="52" font-size="24" font-weight="600">螣蛇</text>
+      <text x="406" y="81" font-size="18">侧面看三曲</text>
+    </g>
+
+    <g transform="translate(275 92) scale(1.04)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M76 106 C83 97 82 93 79 87
+               C71 70 81 46 93 33
+               C106 18 123 12 146 12
+               C183 12 213 34 221 67
+               C229 97 222 125 210 147
+               C200 165 192 177 190 191
+               C188 206 196 221 207 231"
+            stroke="#50504d" stroke-width="2.3"/>
+      <path d="M82 51 C95 46 106 36 118 31
+               C130 40 145 45 158 43
+               C153 57 153 71 159 85
+               M96 40 Q111 25 132 22
+               M130 27 C152 36 172 34 187 44"
+            stroke="#858582" stroke-width="1.7"/>
+      <path d="M82 102 Q95 94 108 101
+               M83 112 Q94 105 105 111 Q94 117 83 112"
+            stroke="#50504d" stroke-width="1.9"/>
+      <circle cx="91" cy="111" r="2" fill="#50504d"/>
+      <path d="M160 102 C168 92 181 96 181 108
+               C180 119 173 131 166 133 Q158 135 160 124
+               M165 114 C165 106 174 103 175 109 Q175 115 169 119"
+            stroke="#6c6c68" stroke-width="1.9"/>
+      <path d="M76 106
+               C73 112 62 116 62 122 Q62 127 69 128
+               C67 135 52 139 52 146 Q52 151 59 152
+               C56 159 42 163 42 170 C42 177 51 180 60 176"
+            stroke="#a33e32" stroke-width="3.5"/>
+      <path d="M60 176 Q69 170 73 175
+               C75 181 67 186 69 191 Q69 195 63 199 Q68 202 76 201
+               M65 203 Q69 207 75 207
+               C73 215 76 222 85 225 C99 228 119 221 132 215
+               Q138 228 134 239"
+            stroke="#41413f" stroke-width="2.2"/>
+    </g>
+    <g text-anchor="middle">
+      <text x="406" y="377" font-size="21">三曲鼻</text>
+      <text x="406" y="404" font-size="17" fill="#62625f">二曲就不算</text>
+    </g>
+
+    <path d="M653 112
+             C633 135 633 159 634 189
+             C635 211 631 227 615 238
+             C601 248 589 258 591 272
+             C593 285 607 288 621 280
+             C635 272 643 261 656 264
+             C674 268 684 287 680 303
+             C676 322 656 328 631 331
+             C605 334 588 342 582 361"
+          fill="none" stroke="#41413e" stroke-width="3.2" stroke-linecap="round"/>
+
+    <g transform="translate(750 136) scale(1.32)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 48 C11 19 32 4 62 4
+               C92 4 113 19 112 48 L109 77
+               C107 97 95 114 78 126 Q62 138 46 126
+               C29 114 17 97 15 77 Z"
+            stroke="#80807c" stroke-width="1.65"/>
+      <path d="M23 49 Q36 41 49 47 M75 47 Q88 41 101 49
+               M25 58 Q36 52 46 58 Q36 63 25 58
+               M78 58 Q88 52 99 58 Q88 63 78 58"
+            stroke="#666662" stroke-width="1.65"/>
+      <path d="M61 54 C61 65 53 73 46 81
+               C41 87 43 93 50 94
+               C56 95 61 89 64 91 Q69 94 71 88"
+            stroke="#333331" stroke-width="2.5"/>
+      <path d="M49 109 Q56 108 62 109 Q68 108 75 109 M56 114 Q62 116 68 114"
+            stroke="#80807c" stroke-width="1.45"/>
+    </g>
+
+    <g text-anchor="middle">
+      <g font-size="24" font-weight="600">
+        <text x="536" y="426">侧曲</text>
+        <text x="640" y="426">直曲</text>
+        <text x="832" y="426">正脸歪了</text>
+      </g>
+      <text x="536" y="466" font-size="20">侧曲还好</text>
+      <text x="536" y="495" font-size="17" fill="#62625f">大不了孤坐到老</text>
+      <text x="832" y="466" font-size="20">人还要害人</text>
+    </g>
+  </g>
+</svg>

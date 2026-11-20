@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">明堂与朝山</title>
+  <desc id="desc">从拟建祖坟的圈内顺箭头望去，宽广的明堂对着尖顶平肩的朝山。来水在前方聚宽，去处隐入坡后；远处可见三起两凹的笔架、覆着短细草的文官山头，以及形似圆顶营帐的武官山头。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M2 1.5 L8 5 L2 8.5" fill="none" stroke="#555" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <g id="grass" fill="none" stroke="#777" stroke-width="1.15" stroke-linecap="round">
+      <path d="M-5 1 l-2 -4 M-1 0 l-1 -6 M3 0 l2 -5 M7 1 l2 -3"/>
+    </g>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- 远层的笔架保留三处圆起、两处下凹及下方近水平的长线。 -->
+    <path d="M106 145
+             C118 123 133 94 154 94
+             C174 94 179 115 198 115
+             C220 115 225 80 249 80
+             C269 80 277 108 298 108
+             C319 108 330 76 354 76
+             C377 76 393 111 416 142
+             Z"
+          fill="#f7f7f5" stroke="#797975" stroke-width="2"/>
+
+    <!-- 右侧山头以露出部分轮廓的排拱表现前后搭接。 -->
+    <g fill="#f6f6f4" stroke="#686864" stroke-width="2">
+      <path d="M602 170 C609 144 624 122 645 122 C657 122 666 129 674 141
+               C681 118 697 99 717 99 C736 99 749 114 757 134
+               C765 119 777 112 791 112 C813 112 830 135 837 159
+               C848 144 859 140 871 143 C892 147 905 169 911 193
+               L911 204 L602 204Z" stroke="none"/>
+      <path d="M602 170 C609 144 624 122 645 122 C657 122 666 129 674 141
+               M668 152 C678 123 695 99 717 99 C736 99 749 114 757 134
+               M751 145 C760 124 775 112 791 112 C813 112 830 135 837 159
+               M833 168 C844 149 858 140 871 143 C892 147 905 169 911 193" fill="none"/>
+      <path d="M584 193 C596 165 612 148 634 148 C655 148 670 165 678 186
+               M665 164 C677 145 692 134 709 134 C730 134 748 151 754 177
+               M744 154 C755 140 769 135 782 137 C801 139 818 158 824 179
+               M814 157 C836 143 859 157 869 181" fill="none"/>
+      <path d="M635 207 C649 184 669 166 692 166 C713 166 729 180 740 198
+               C752 181 768 174 784 177 C804 180 820 197 828 214" fill="none"/>
+    </g>
+
+    <!-- 朝山以一座尖峰、两段平肩为主，两旁的小山较低。 -->
+    <path d="M246 248 Q274 230 300 191 L357 187
+             Q365 186 371 178 L453 83
+             L524 174 Q531 183 540 183 L590 185
+             Q613 210 644 233 L664 246
+             Q571 236 457 239 Q338 242 246 248Z"
+          fill="#f0f0ed"/>
+    <path d="M246 248 Q274 230 300 191 L357 187
+             Q365 186 371 178 L453 83
+             L524 174 Q531 183 540 183 L590 185
+             Q613 210 644 233 L664 246"
+          fill="none" stroke="#30302e" stroke-width="3"/>
+    <g fill="none" stroke="#777773" stroke-width="1.8">
+      <path d="M169 225 Q191 180 217 178 Q242 176 264 207"/>
+      <path d="M193 239 Q221 199 247 201 Q263 201 281 217"/>
+      <path d="M612 207 Q635 183 654 190 Q670 196 684 215"/>
+      <path d="M631 222 Q655 200 676 206 Q695 211 714 235"/>
+    </g>
+
+    <!-- 文官山头只点出短而细的草。 -->
+    <path d="M48 259 C80 247 104 211 138 207
+             C170 203 192 235 223 244 Q237 249 252 250
+             Q152 242 48 264Z" fill="#f4f4f1"/>
+    <path d="M48 259 C80 247 104 211 138 207
+             C170 203 192 235 223 244 Q237 249 252 250"
+          fill="none" stroke="#4c4c48" stroke-width="2.2"/>
+    <use href="#grass" transform="translate(104 222) rotate(-24)"/>
+    <use href="#grass" transform="translate(126 210) rotate(-12)"/>
+    <use href="#grass" transform="translate(147 207)"/>
+    <use href="#grass" transform="translate(168 215) rotate(19)"/>
+    <use href="#grass" transform="translate(187 228) rotate(25)"/>
+
+    <!-- 来水从窄处进入，在明堂前展开；右端被近坡遮住。 -->
+    <path d="M49 323
+             C132 316 184 327 255 344
+             C324 360 375 350 451 342
+             C539 332 608 337 665 344
+             C720 351 763 342 809 327
+             L827 344
+             C758 367 698 367 631 374
+             C561 382 529 403 443 402
+             C353 401 312 373 247 357
+             C178 340 118 327 49 330Z"
+          fill="#ececea"/>
+    <g fill="none" stroke="#888884" stroke-width="1.7">
+      <path d="M49 323 C132 316 184 327 255 344
+               C324 360 375 350 451 342 C539 332 608 337 665 344
+               C720 351 763 342 809 327"/>
+      <path d="M49 330 C118 327 178 340 247 357
+               C312 373 353 401 443 402 C529 403 561 382 631 374
+               C698 367 758 367 827 344"/>
+    </g>
+    <path d="M708 362 C746 351 773 320 811 316
+             C847 312 874 326 913 330 L913 383
+             Q830 358 763 367 Q729 372 708 366Z" fill="#fff"/>
+    <path d="M708 362 C746 351 773 320 811 316 C847 312 874 326 913 330"
+          fill="none" stroke="#646460" stroke-width="2"/>
+    <path d="M152 328 Q180 330 212 340" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+    <!-- 由圈内向前看，圈与对面主峰共用一条视轴。 -->
+    <ellipse cx="453" cy="468" rx="40" ry="13" fill="#fafaf8" stroke="#666662" stroke-width="1.8"/>
+    <path d="M453 467 L453 417" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+    <circle cx="453" cy="468" r="5" fill="#ae4033" stroke="#fff" stroke-width="1.3"/>
+  </g>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#292927" text-anchor="middle">
+    <text x="248" y="53" font-size="20">笔架</text>
+    <text x="115" y="183" font-size="19">文官的山头</text>
+    <text x="453" y="190" font-size="23" font-weight="600">朝山</text>
+    <text x="754" y="58" font-size="19">武官的山头</text>
+    <text x="754" y="82" font-size="16" fill="#565652">像军营一样圆圆的</text>
+    <text x="453" y="296" font-size="24" letter-spacing="2">明堂又很宽广</text>
+    <text x="162" y="309" font-size="18">看水过来</text>
+    <text x="459" y="379" font-size="18">水又聚在这边来</text>
+    <text x="812" y="301" font-size="18">看不到</text>
+    <text x="453" y="512" font-size="20">祖坟</text>
+  </g>
+</svg>

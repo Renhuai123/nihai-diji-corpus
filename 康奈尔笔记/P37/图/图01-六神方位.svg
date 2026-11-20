@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">六神方位</title>
+  <desc id="desc">正面人脸上，额中为朱雀，颏部为玄武，画面左眼旁为青龙，右眼旁为白虎。左上与右下为螣蛇，右上与左下为勾陈。</desc>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- 双耳与脸廓 -->
+    <g fill="#fff" stroke="#444" stroke-width="2.6">
+      <path d="M281 228 C266 214 248 220 246 242
+               C244 260 253 280 262 291 C269 300 268 313 278 317
+               Q286 321 293 313"/>
+      <path d="M679 228 C694 214 712 220 714 242
+               C716 260 707 280 698 291 C691 300 692 313 682 317
+               Q674 321 667 313"/>
+      <path d="M480 29 C355 29 280 92 280 202
+               C280 293 293 374 360 441
+               C405 485 447 509 480 509
+               C513 509 555 485 600 441
+               C667 374 680 293 680 202
+               C680 92 605 29 480 29 Z"/>
+    </g>
+
+    <!-- 发际线 -->
+    <path d="M280 202 C280 92 355 29 480 29
+             C605 29 680 92 680 202
+             C653 183 628 149 608 103
+             C565 126 515 133 466 128
+             C419 124 379 109 351 112
+             C322 116 302 153 280 202 Z"
+          fill="#f1f1ef" stroke="#444" stroke-width="2.4"/>
+
+    <!-- 双眉、眼、鼻、口 -->
+    <g fill="none" stroke="#626262" stroke-width="2.2">
+      <path d="M386 231 Q414 222 443 230 M517 230 Q546 222 574 231"/>
+      <path d="M388 254 Q413 237 440 253 Q415 268 388 254 Z
+               M520 253 Q547 237 572 254 Q545 268 520 253 Z"/>
+      <path d="M480 259 L460 312 Q479 317 500 312 Z"/>
+      <path d="M448 363 Q480 371 512 363"/>
+    </g>
+  </g>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif"
+     font-size="26" font-weight="500" text-anchor="middle" fill="#242424">
+    <text x="480" y="183">朱雀</text>
+    <text x="352" y="195">螣蛇</text>
+    <text x="608" y="195">勾陈</text>
+    <text x="333" y="264">青龙</text>
+    <text x="627" y="264">白虎</text>
+    <text x="379" y="391">勾陈</text>
+    <text x="581" y="391">螣蛇</text>
+    <text x="480" y="459">玄武</text>
+  </g>
+</svg>

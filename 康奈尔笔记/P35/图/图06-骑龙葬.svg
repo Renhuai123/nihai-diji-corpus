@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">骑龙葬</title>
+  <desc id="desc">侧视图。人站在峦头的穴位上，望向远山的紫微星。两条水平虚线分别齐于眼睛和心脏，远山山顶落在两线之间。</desc>
+
+  <rect width="960" height="540" fill="#fff"/>
+
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#282828">
+    <rect x="48" y="36" width="128" height="48" rx="3" fill="none" stroke="#484848" stroke-width="1.5"/>
+    <text x="112" y="68" text-anchor="middle" font-size="25" font-weight="600" letter-spacing="2">骑龙葬</text>
+
+    <!-- 从眼睛和心脏各引一条水平线。山体遮住心脏线的末端。 -->
+    <g fill="none" stroke="#939393" stroke-width="1.3" stroke-dasharray="7 6">
+      <path d="M248 188 H789"/>
+      <path d="M245 231 H750"/>
+    </g>
+
+    <!-- 近处的脊顶承托穴位，远处山顶在两条水平线之间。 -->
+    <path d="M48 390
+             C112 373 166 338 207 333
+             C219 331 236 331 250 332
+             C302 337 351 379 412 409
+             C460 433 511 445 554 439
+             C605 432 631 386 658 332
+             C686 278 713 209 750 209
+             C787 209 809 253 836 291
+             C859 324 885 348 912 360
+             V470 H48 Z" fill="#f3f3f1"/>
+    <path d="M48 390
+             C112 373 166 338 207 333
+             C219 331 236 331 250 332
+             C302 337 351 379 412 409
+             C460 433 511 445 554 439
+             C605 432 631 386 658 332
+             C686 278 713 209 750 209
+             C787 209 809 253 836 291
+             C859 324 885 348 912 360"
+          fill="none" stroke="#363636" stroke-width="2.3" stroke-linecap="round"/>
+
+    <!-- 视线从眼部缓缓向下，止于远山山顶。 -->
+    <path d="M248 188 L750 209" fill="none" stroke="#585858" stroke-width="1.65"/>
+
+    <!-- 右向侧身，双脚落在同一处脊顶。 -->
+    <g fill="#fff" stroke="#303030" stroke-width="2.15" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M222 193
+               C217 190 217 182 220 176
+               C223 169 232 167 239 170
+               C246 172 249 178 248 185
+               L252 192 L248 194
+               C248 201 244 205 238 205
+               L238 213 L226 214 L227 202
+               C224 200 222 197 222 193 Z"/>
+      <path d="M226 211
+               Q217 213 216 226
+               L216 250 Q216 261 220 270
+               L241 270 Q246 251 245 233
+               Q245 219 238 212 Z"/>
+      <path d="M220 270 L218 299 L211 330 L219 330
+               M241 270 L239 299 L247 330 L255 330" fill="none"/>
+      <path d="M225 222 Q221 236 224 245 L232 258" fill="none"/>
+    </g>
+    <circle cx="245" cy="188" r="2" fill="#303030"/>
+    <circle cx="241" cy="231" r="2.8" fill="#303030"/>
+
+    <g fill="none" stroke="#909090" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M148 188 H212"/>
+      <path d="M148 231 H208"/>
+      <path d="M232 332 L205 378 H179"/>
+      <path d="M755 202 L782 158 H799"/>
+    </g>
+    <circle cx="232" cy="332" r="5.8" fill="#b13c31" stroke="#fff" stroke-width="1.5"/>
+
+    <g font-size="19">
+      <text x="137" y="194" text-anchor="end">眼睛</text>
+      <text x="137" y="237" text-anchor="end">心脏</text>
+      <text x="169" y="385" text-anchor="end">穴位</text>
+      <text x="808" y="164" font-size="21">紫微星</text>
+    </g>
+  </g>
+</svg>

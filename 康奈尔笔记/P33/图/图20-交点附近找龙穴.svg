@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">交点附近找龙穴</title>
+  <desc id="desc">左图为鸟瞰。两股水交会后流出，从水口往回拉线，上下移动，与山龙的线相对；朱红虚圈示意在交点附近找穴，旁边的短弧示意向外散开的鱼骨纹。右图分别画出倪师举的四种天然穴形。</desc>
+
+  <defs>
+    <marker id="flow" viewBox="0 0 12 12" refX="9" refY="6" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M2 2 L9 6 L2 10" fill="none" stroke="#555" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="back" viewBox="0 0 12 12" refX="9" refY="6" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M2 2 L9 6 L2 10" fill="none" stroke="#303030" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="540" fill="#fff"/>
+  <g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#262626">
+    <rect x="42" y="32" width="282" height="47" rx="3" fill="none" stroke="#555" stroke-width="1.4"/>
+    <text x="183" y="63" text-anchor="middle" font-size="23" font-weight="600">在那个交点附近找龙穴</text>
+
+    <text x="46" y="124" font-size="19">鸟瞰</text>
+
+    <!-- 山脊自上而下，逐渐收窄。短弧贴在脊线两侧。 -->
+    <path d="M221 109 C228 143 245 169 246 195
+             C247 218 259 241 271 261 Q280 277 285 304
+             Q296 279 291 254 C286 228 279 211 279 191
+             C278 159 269 131 263 109 Z" fill="#f1f1ee"/>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M242 109 C247 139 261 165 261 193
+               C261 220 269 242 278 260 Q286 280 285 304"
+            stroke="#353535" stroke-width="2.8"/>
+      <g stroke="#888883" stroke-width="1.7">
+        <path d="M265 218 Q251 213 246 202 M269 228 Q253 224 244 212 M273 239 Q254 235 243 223 M276 249 Q257 247 245 235"/>
+        <path d="M268 218 Q280 210 281 198 M271 228 Q285 218 288 205 M275 238 Q291 228 295 214 M279 248 Q296 239 302 225"/>
+      </g>
+      <g stroke="#888" stroke-width="1.1">
+        <path d="M279 147 L305 132 H325"/>
+        <path d="M247 219 L212 202 H188"/>
+      </g>
+    </g>
+    <text x="333" y="138" font-size="19">山龙的线</text>
+    <text x="179" y="208" text-anchor="end" font-size="18">鱼骨纹</text>
+
+    <!-- 三段共用一个汇流点。水流箭头位于各段中间，水口另引虚线回望山脊。 -->
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <g stroke="#e6e6e3" stroke-width="13">
+        <path d="M56 360 C122 362 147 408 227 411 C318 415 374 344 450 344 Q471 344 490 351"/>
+        <path d="M565 180 C570 222 558 253 535 279 C509 308 482 324 490 351"/>
+        <path d="M490 351 C523 365 550 389 595 393"/>
+      </g>
+      <g stroke="#555" stroke-width="1.8">
+        <path d="M56 360 C122 362 147 408 227 411 C318 415 374 344 450 344 Q471 344 490 351"/>
+        <path d="M565 180 C570 222 558 253 535 279 C509 308 482 324 490 351"/>
+        <path d="M490 351 C523 365 550 389 595 393"/>
+      </g>
+      <g stroke="#555" stroke-width="1.8" marker-end="url(#flow)">
+        <path d="M168 398 Q185 406 202 409"/>
+        <path d="M555 250 Q548 265 535 279"/>
+        <path d="M546 380 Q563 389 581 391"/>
+      </g>
+
+      <path d="M490 351 L218 234" stroke="#303030" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#back)"/>
+      <g stroke="#646464" stroke-width="1.4">
+        <path d="M378 278 V319 M373 284 L378 278 L383 284 M373 313 L378 319 L383 313"/>
+        <path d="M493 358 L490 402 H467"/>
+      </g>
+      <ellipse cx="278" cy="260" rx="27" ry="22" transform="rotate(-12 278 260)" stroke="#b43b30" stroke-width="2" stroke-dasharray="4 5"/>
+    </g>
+    <text x="376" y="266" text-anchor="middle" font-size="17">上下动</text>
+    <text x="403" y="336" transform="rotate(23.3 403 336)" text-anchor="middle" font-size="18">水的线</text>
+    <text x="460" y="410" text-anchor="end" font-size="19">水口</text>
+
+    <path d="M629 105 V470" fill="none" stroke="#dededa" stroke-width="1"/>
+    <text x="664" y="124" font-size="20" font-weight="600">自然的形成的穴</text>
+
+    <!-- 凹与微隆用侧面轮廓，钳口与小窝用俯视轮廓。 -->
+    <g fill="none" stroke="#424242" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M662 194 H683 Q688 194 689 200 L692 216 Q693 222 700 222
+               H721 Q728 222 729 215 L732 200 Q733 194 739 194 H759"/>
+      <path d="M821 179 C819 196 823 214 837 227 Q853 240 869 227
+               C883 214 887 196 885 179
+               Q879 184 875 194 C869 208 862 218 853 219
+               C844 218 837 208 831 194 Q827 184 821 179 Z" fill="#f2f2ef"/>
+      <path d="M672 359 C673 345 690 335 711 336 C733 336 750 345 751 357
+               C751 371 732 381 710 381 C691 381 673 374 672 359 Z" fill="#f4f4f1"/>
+      <path d="M687 359 C689 351 699 347 712 347 C726 347 737 352 737 359
+               C736 367 725 371 712 371 C700 371 690 367 687 362" stroke="#92928c" stroke-width="1.4"/>
+      <path d="M803 367 H820 C834 367 839 355 854 355
+               C869 355 875 367 889 367 H907"/>
+    </g>
+    <g text-anchor="middle" font-size="19">
+      <text x="711" y="267">凹下去一块</text>
+      <text x="854" y="267">钳口</text>
+      <text x="711" y="419">一个小窝</text>
+      <text x="854" y="419">微微绷起来</text>
+    </g>
+  </g>
+</svg>
