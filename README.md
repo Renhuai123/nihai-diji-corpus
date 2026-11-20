@@ -8,7 +8,7 @@
 
 倪师把学问分为天纪、地纪、人纪，堪舆属**地纪**。这四讲出自倪师《天纪》课程（B 站合辑 [BV1KJsLekEfA](https://www.bilibili.com/video/BV1KJsLekEfA/) 分 P 31 / 33 / 35 / 37），本库专门整理这一块。
 
-**四讲公开摘要已发布（87 条要点，每条带时间码）**：见 [`summaries/`](summaries/README.md)。
+**四讲公开摘要已发布（87 条要点，每条带时间码）**：见 [`summaries/`](summaries/README.md)。**四讲康奈尔笔记全文**也已公开：见 [`康奈尔笔记/`](康奈尔笔记/)（每条标依据，可指回时间码和帧号）。
 
 姊妹库：[nihai-tianji-corpus](https://github.com/Renhuai123/nihai-tianji-corpus)（天纪十一册 4886 条判语，第 11 册「堪舆」257 条可对照）· [nihai-renji-corpus](https://github.com/Renhuai123/nihai-renji-corpus)（人纪六部 19,294 条判语）· 紫微十七集 160 万帧精读见 [ziwei-doushu/research/nishi-video-reading](https://github.com/Renhuai123/ziwei-doushu/tree/main/research/nishi-video-reading)（同一套方法）。
 
@@ -46,7 +46,8 @@
 ## 这里公开什么
 
 - **公开**：方法、脚本（[`scripts/`](scripts/)）、提示词（[`prompts/`](prompts/)）、收尾步骤（[`docs/`](docs/)），以及每讲的公开摘要（[`summaries/`](summaries/README.md)，倪师原话只引短句，带时间码）。脚本里的本机路径写成「<工作目录>」。
-- **不公开**：视频画面和帧图片、整段讲课转写、笔记正文。
+- **也公开**：四讲康奈尔笔记全文（[`康奈尔笔记/`](康奈尔笔记/)），倪师原话照字幕原字引在「」里。
+- **不公开**：视频画面和帧图片、整段逐字转写。
 
 原视频见 B 站合辑 [BV1KJsLekEfA](https://www.bilibili.com/video/BV1KJsLekEfA/)。
 
