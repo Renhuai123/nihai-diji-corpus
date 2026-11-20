@@ -45,7 +45,7 @@
 
 ## 这里公开什么
 
-- **公开**：方法、脚本、提示词、工作记录，以及每讲的公开摘要（倪师原话只引短句，带时间码）。
+- **公开**：方法、脚本（[`scripts/`](scripts/)）、提示词（[`prompts/`](prompts/)）、收尾步骤（[`docs/`](docs/)），以及每讲的公开摘要（[`summaries/`](summaries/README.md)，倪师原话只引短句，带时间码）。脚本里的本机路径写成「<工作目录>」。
 - **不公开**：视频画面和帧图片、整段讲课转写、笔记正文。
 
 原视频见 B 站合辑 [BV1KJsLekEfA](https://www.bilibili.com/video/BV1KJsLekEfA/)。
